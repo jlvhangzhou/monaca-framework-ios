@@ -1,0 +1,1711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		F5FB382914851B2C00DD6C7A /* MonacaFramework-Universal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F5FB382C14851B2C00DD6C7A /* Build configuration list for PBXAggregateTarget "MonacaFramework-Universal" */;
+			buildPhases = (
+				F5FB382E14851B7D00DD6C7A /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "MonacaFramework-Universal";
+			productName = "MonacaFramework-Universal";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		3E0F08FF15A81D000025EFC2 /* MFPGNativeComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E0F08FD15A81D000025EFC2 /* MFPGNativeComponent.h */; };
+		3E0F090015A81D000025EFC2 /* MFPGNativeComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E0F08FD15A81D000025EFC2 /* MFPGNativeComponent.h */; };
+		3E0F090115A81D000025EFC2 /* MFPGNativeComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0F08FE15A81D000025EFC2 /* MFPGNativeComponent.m */; };
+		3E0F090215A81D000025EFC2 /* MFPGNativeComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0F08FE15A81D000025EFC2 /* MFPGNativeComponent.m */; };
+		3E0F090315A81D000025EFC2 /* MFPGNativeComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0F08FE15A81D000025EFC2 /* MFPGNativeComponent.m */; };
+		3E4405DC15A137CD00BA0FF6 /* MonacaTabBarController+Bottom.m in Sources */ = {isa = PBXBuildFile; fileRef = F5EF734314EE84A8003B7BA5 /* MonacaTabBarController+Bottom.m */; };
+		3E4F50FF15A040DE0054EB23 /* MonacaTransitPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E4F50FD15A040DE0054EB23 /* MonacaTransitPlugin.h */; };
+		3E4F510015A040DE0054EB23 /* MonacaTransitPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4F50FE15A040DE0054EB23 /* MonacaTransitPlugin.m */; };
+		3E4F510415A0419E0054EB23 /* MonacaNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E4F510215A0419E0054EB23 /* MonacaNavigationController.h */; };
+		3E4F510515A0419E0054EB23 /* MonacaNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4F510315A0419E0054EB23 /* MonacaNavigationController.m */; };
+		3E4F510715A042E10054EB23 /* MonacaTransitPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4F50FE15A040DE0054EB23 /* MonacaTransitPlugin.m */; };
+		3E4F510815A042E50054EB23 /* MonacaNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4F510315A0419E0054EB23 /* MonacaNavigationController.m */; };
+		3E4F513F15A05BF10054EB23 /* MonacaDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F50460D813B3633B0050803F /* MonacaDelegate.m */; };
+		3E4F514015A05BF10054EB23 /* MonacaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F50460DA13B3633B0050803F /* MonacaViewController.m */; };
+		3E4F514115A05BF10054EB23 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = F50460E013B3633B0050803F /* Utility.m */; };
+		3E4F514215A05BF10054EB23 /* MonacaTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5921FB6146B80F00025DED5 /* MonacaTabBarController.m */; };
+		3E4F514315A05BF10054EB23 /* Device.m in Sources */ = {isa = PBXBuildFile; fileRef = F54FBB3E14BBE04100F702D9 /* Device.m */; };
+		3E4F514415A05BF10054EB23 /* MonacaTabBarController+Bottom.m in Sources */ = {isa = PBXBuildFile; fileRef = F5EF734314EE84A8003B7BA5 /* MonacaTabBarController+Bottom.m */; };
+		3E4F514515A05BF10054EB23 /* MonacaTabBarController+Top.m in Sources */ = {isa = PBXBuildFile; fileRef = F5EF734C14EE8AA1003B7BA5 /* MonacaTabBarController+Top.m */; };
+		3E4F514615A05BF10054EB23 /* NCBackButtonBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E0F7CA1506116900DC7988 /* NCBackButtonBuilder.m */; };
+		3E4F514715A05BF10054EB23 /* NCButtonBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E0F7CC1506116900DC7988 /* NCButtonBuilder.m */; };
+		3E4F514815A05BF10054EB23 /* NCContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E0F7CE1506116900DC7988 /* NCContainer.m */; };
+		3E4F514915A05BF10054EB23 /* NCLabelBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E0F7D01506116900DC7988 /* NCLabelBuilder.m */; };
+		3E4F514A15A05BF10054EB23 /* NCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E0F7D21506116900DC7988 /* NCManager.m */; };
+		3E4F514B15A05BF10054EB23 /* NCSearchBoxBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E0F7D41506116900DC7988 /* NCSearchBoxBuilder.m */; };
+		3E4F514C15A05BF10054EB23 /* NCSegmentBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E0F7D61506116900DC7988 /* NCSegmentBuilder.m */; };
+		3E4F514D15A05BF10054EB23 /* NCTabbarItemBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E0F7D81506116900DC7988 /* NCTabbarItemBuilder.m */; };
+		3E4F514E15A05BF10054EB23 /* NCTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E0F7DA1506116900DC7988 /* NCTitleView.m */; };
+		3E4F514F15A05BF10054EB23 /* NCToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E0F7DC1506116900DC7988 /* NCToolbar.m */; };
+		3E4F515015A05BF10054EB23 /* UILabel+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E0F7DE1506116900DC7988 /* UILabel+Resize.m */; };
+		3E4F515E15A05BF10054EB23 /* NCButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D44C9E2A1592ED86006372F3 /* NCButton.m */; };
+		3E4F515F15A05BF10054EB23 /* NCSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D44C9E2C1592ED86006372F3 /* NCSearchBar.m */; };
+		3E4F516015A05BF10054EB23 /* MonacaURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7FD31F159EA3EE00E85C81 /* MonacaURLProtocol.m */; };
+		3E4F516115A05BF10054EB23 /* MonacaTransitPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4F50FE15A040DE0054EB23 /* MonacaTransitPlugin.m */; };
+		3E4F516215A05BF10054EB23 /* MonacaNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4F510315A0419E0054EB23 /* MonacaNavigationController.m */; };
+		3E4F516415A05BF10054EB23 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F57E523313D2E8DE00074B18 /* CoreMedia.framework */; };
+		3E4F516515A05BF10054EB23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F504611413B364C60050803F /* Foundation.framework */; };
+		3E4F516615A05BF10054EB23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F504611513B364C60050803F /* UIKit.framework */; };
+		3E4F516715A05BF10054EB23 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F504611613B364C60050803F /* CoreGraphics.framework */; };
+		3E4F516815A05BF10054EB23 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F504611713B364C60050803F /* AddressBook.framework */; };
+		3E4F516915A05BF10054EB23 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F504611813B364C60050803F /* AddressBookUI.framework */; };
+		3E4F516A15A05BF10054EB23 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F504611913B364C60050803F /* AVFoundation.framework */; };
+		3E4F516B15A05BF10054EB23 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F504611B13B364C60050803F /* CoreLocation.framework */; };
+		3E4F516C15A05BF10054EB23 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F504611C13B364C60050803F /* MediaPlayer.framework */; };
+		3E4F516D15A05BF10054EB23 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F504611D13B364C60050803F /* MobileCoreServices.framework */; };
+		3E4F516E15A05BF10054EB23 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F504611E13B364C60050803F /* QuartzCore.framework */; };
+		3E4F516F15A05BF10054EB23 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F504611F13B364C60050803F /* SystemConfiguration.framework */; };
+		3E4F517015A05BF10054EB23 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F504612013B364C60050803F /* AudioToolbox.framework */; };
+		3E4F517415A05BF10054EB23 /* Utility.h in Headers */ = {isa = PBXBuildFile; fileRef = F50460DF13B3633B0050803F /* Utility.h */; };
+		3E4F517515A05BF10054EB23 /* MonacaDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F57E51BC13D2CCC200074B18 /* MonacaDelegate.h */; };
+		3E4F517615A05BF10054EB23 /* MonacaViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F57E51BD13D2CCC200074B18 /* MonacaViewController.h */; };
+		3E4F517715A05BF10054EB23 /* MonacaTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = F5921FB5146B80F00025DED5 /* MonacaTabBarController.h */; };
+		3E4F517815A05BF10054EB23 /* Device.h in Headers */ = {isa = PBXBuildFile; fileRef = F54FBB3D14BBE04000F702D9 /* Device.h */; };
+		3E4F517915A05BF10054EB23 /* MonacaTabBarController+Bottom.h in Headers */ = {isa = PBXBuildFile; fileRef = F5EF734214EE84A8003B7BA5 /* MonacaTabBarController+Bottom.h */; };
+		3E4F517A15A05BF10054EB23 /* MonacaTabBarController+Top.h in Headers */ = {isa = PBXBuildFile; fileRef = F5EF734B14EE8AA1003B7BA5 /* MonacaTabBarController+Top.h */; };
+		3E4F517B15A05BF10054EB23 /* NativeComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E0F7C71506116900DC7988 /* NativeComponents.h */; };
+		3E4F517C15A05BF10054EB23 /* NativeComponentsInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E0F7C81506116900DC7988 /* NativeComponentsInternal.h */; };
+		3E4F517D15A05BF10054EB23 /* NCBackButtonBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E0F7C91506116900DC7988 /* NCBackButtonBuilder.h */; };
+		3E4F517E15A05BF10054EB23 /* NCButtonBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E0F7CB1506116900DC7988 /* NCButtonBuilder.h */; };
+		3E4F517F15A05BF10054EB23 /* NCContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E0F7CD1506116900DC7988 /* NCContainer.h */; };
+		3E4F518015A05BF10054EB23 /* NCLabelBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E0F7CF1506116900DC7988 /* NCLabelBuilder.h */; };
+		3E4F518115A05BF10054EB23 /* NCManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E0F7D11506116900DC7988 /* NCManager.h */; };
+		3E4F518215A05BF10054EB23 /* NCSearchBoxBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E0F7D31506116900DC7988 /* NCSearchBoxBuilder.h */; };
+		3E4F518315A05BF10054EB23 /* NCSegmentBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E0F7D51506116900DC7988 /* NCSegmentBuilder.h */; };
+		3E4F518415A05BF10054EB23 /* NCTabbarItemBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E0F7D71506116900DC7988 /* NCTabbarItemBuilder.h */; };
+		3E4F518515A05BF10054EB23 /* NCTitleView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E0F7D91506116900DC7988 /* NCTitleView.h */; };
+		3E4F518615A05BF10054EB23 /* NCToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E0F7DB1506116900DC7988 /* NCToolbar.h */; };
+		3E4F518715A05BF10054EB23 /* UILabel+Resize.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E0F7DD1506116900DC7988 /* UILabel+Resize.h */; };
+		3E4F518815A05BF10054EB23 /* MonacaTemplateEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E0F7F81506117E00DC7988 /* MonacaTemplateEngine.h */; };
+		3E4F51B315A05BF10054EB23 /* NCButton.h in Headers */ = {isa = PBXBuildFile; fileRef = D44C9E291592ED86006372F3 /* NCButton.h */; };
+		3E4F51B415A05BF10054EB23 /* NCSearchBar.h in Headers */ = {isa = PBXBuildFile; fileRef = D44C9E2B1592ED86006372F3 /* NCSearchBar.h */; };
+		3E4F51B515A05BF10054EB23 /* MonacaURLProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E7FD31E159EA3ED00E85C81 /* MonacaURLProtocol.h */; };
+		3E4F51B615A05BF10054EB23 /* MonacaTransitPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E4F50FD15A040DE0054EB23 /* MonacaTransitPlugin.h */; };
+		3E4F51B715A05BF10054EB23 /* MonacaNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E4F510215A0419E0054EB23 /* MonacaNavigationController.h */; };
+		3E5803A715A8649D00148FE4 /* CrossPlatformTemplaterForAppIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4F51BE15A05C8A0054EB23 /* CrossPlatformTemplaterForAppIOS.a */; };
+		3E6A9A2C15DFB1CE004D530D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E6A9A2A15DFB1CE004D530D /* Localizable.strings */; };
+		3E6E35F515D7DA900000D18E /* CrossPlatformTemplaterForAppSimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E0F7F71506117E00DC7988 /* CrossPlatformTemplaterForAppSimulator.a */; };
+		3E7FD2B5159D8F2300E85C81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F504611513B364C60050803F /* UIKit.framework */; };
+		3E7FD2B6159D8F2300E85C81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F504611413B364C60050803F /* Foundation.framework */; };
+		3E7FD2B7159D8F2300E85C81 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F504611613B364C60050803F /* CoreGraphics.framework */; };
+		3E7FD2BF159D8F2400E85C81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7FD2BE159D8F2400E85C81 /* main.m */; };
+		3E7FD2EB159D914100E85C81 /* Device.m in Sources */ = {isa = PBXBuildFile; fileRef = F54FBB3E14BBE04100F702D9 /* Device.m */; };
+		3E7FD2F2159D923300E85C81 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F504611713B364C60050803F /* AddressBook.framework */; };
+		3E7FD2F3159D923600E85C81 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F504611813B364C60050803F /* AddressBookUI.framework */; };
+		3E7FD2F4159D923B00E85C81 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F504612013B364C60050803F /* AudioToolbox.framework */; };
+		3E7FD2F5159D924000E85C81 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F504611913B364C60050803F /* AVFoundation.framework */; };
+		3E7FD2F6159D924600E85C81 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F504611B13B364C60050803F /* CoreLocation.framework */; };
+		3E7FD2F7159D924E00E85C81 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F504611C13B364C60050803F /* MediaPlayer.framework */; };
+		3E7FD2F8159D925400E85C81 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F504611E13B364C60050803F /* QuartzCore.framework */; };
+		3E7FD2F9159D925900E85C81 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F504611F13B364C60050803F /* SystemConfiguration.framework */; };
+		3E7FD2FA159D926000E85C81 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F504611D13B364C60050803F /* MobileCoreServices.framework */; };
+		3E7FD2FB159D926600E85C81 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F57E523313D2E8DE00074B18 /* CoreMedia.framework */; };
+		3E7FD31C159EA27700E85C81 /* MonacaDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F50460D813B3633B0050803F /* MonacaDelegate.m */; };
+		3E7FD31D159EA29700E85C81 /* MonacaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F50460DA13B3633B0050803F /* MonacaViewController.m */; };
+		3E7FD320159EA3EF00E85C81 /* MonacaURLProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E7FD31E159EA3ED00E85C81 /* MonacaURLProtocol.h */; };
+		3E7FD321159EA3EF00E85C81 /* MonacaURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7FD31F159EA3EE00E85C81 /* MonacaURLProtocol.m */; };
+		3E7FD322159EA3EF00E85C81 /* MonacaURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7FD31F159EA3EE00E85C81 /* MonacaURLProtocol.m */; };
+		3E7FD329159EA92F00E85C81 /* Cordova.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E7FD328159EA92F00E85C81 /* Cordova.plist */; };
+		3E7FD32A159ECB7000E85C81 /* MonacaTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5921FB6146B80F00025DED5 /* MonacaTabBarController.m */; };
+		3E7FD32B159ECB9B00E85C81 /* NCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E0F7D21506116900DC7988 /* NCManager.m */; };
+		3E7FD32C159ECBA400E85C81 /* NCContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E0F7CE1506116900DC7988 /* NCContainer.m */; };
+		3E7FD32D159ECBCD00E85C81 /* NCButtonBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E0F7CC1506116900DC7988 /* NCButtonBuilder.m */; };
+		3E7FD32E159ECBE700E85C81 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = F50460E013B3633B0050803F /* Utility.m */; };
+		3E7FD32F159ECC0000E85C81 /* NCBackButtonBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E0F7CA1506116900DC7988 /* NCBackButtonBuilder.m */; };
+		3E7FD330159ECC0900E85C81 /* NCLabelBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E0F7D01506116900DC7988 /* NCLabelBuilder.m */; };
+		3E7FD331159ECC1200E85C81 /* NCSearchBoxBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E0F7D41506116900DC7988 /* NCSearchBoxBuilder.m */; };
+		3E7FD332159ECC1A00E85C81 /* NCSegmentBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E0F7D61506116900DC7988 /* NCSegmentBuilder.m */; };
+		3E7FD333159ECC2100E85C81 /* NCButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D44C9E2A1592ED86006372F3 /* NCButton.m */; };
+		3E7FD334159ECC3000E85C81 /* NCSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D44C9E2C1592ED86006372F3 /* NCSearchBar.m */; };
+		3E7FD335159ECC5400E85C81 /* NCTabbarItemBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E0F7D81506116900DC7988 /* NCTabbarItemBuilder.m */; };
+		3E7FD336159ECC5900E85C81 /* NCTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E0F7DA1506116900DC7988 /* NCTitleView.m */; };
+		3E7FD337159ECC5C00E85C81 /* NCToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E0F7DC1506116900DC7988 /* NCToolbar.m */; };
+		3E7FD338159ECC6300E85C81 /* UILabel+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E0F7DE1506116900DC7988 /* UILabel+Resize.m */; };
+		3E7FD33A159ECC8300E85C81 /* MonacaTabBarController+Top.m in Sources */ = {isa = PBXBuildFile; fileRef = F5EF734C14EE8AA1003B7BA5 /* MonacaTabBarController+Top.m */; };
+		3E7FD346159ED12400E85C81 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 3E7FD345159ED11A00E85C81 /* www */; };
+		3E8FB61415D6354D0036993C /* VERSION in Resources */ = {isa = PBXBuildFile; fileRef = 3E8FB61315D6354D0036993C /* VERSION */; };
+		3EBDBE1115D2451A00E3E951 /* CDV.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDBC15D2451A00E3E951 /* CDV.h */; };
+		3EBDBE1215D2451A00E3E951 /* CDV.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDBC15D2451A00E3E951 /* CDV.h */; };
+		3EBDBE1315D2451A00E3E951 /* CDVAccelerometer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDBD15D2451A00E3E951 /* CDVAccelerometer.h */; };
+		3EBDBE1415D2451A00E3E951 /* CDVAccelerometer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDBD15D2451A00E3E951 /* CDVAccelerometer.h */; };
+		3EBDBE1515D2451A00E3E951 /* CDVAccelerometer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDBE15D2451A00E3E951 /* CDVAccelerometer.m */; };
+		3EBDBE1615D2451A00E3E951 /* CDVAccelerometer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDBE15D2451A00E3E951 /* CDVAccelerometer.m */; };
+		3EBDBE1715D2451A00E3E951 /* CDVAccelerometer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDBE15D2451A00E3E951 /* CDVAccelerometer.m */; };
+		3EBDBE1815D2451A00E3E951 /* CDVAvailability.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDBF15D2451A00E3E951 /* CDVAvailability.h */; };
+		3EBDBE1915D2451A00E3E951 /* CDVAvailability.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDBF15D2451A00E3E951 /* CDVAvailability.h */; };
+		3EBDBE1A15D2451A00E3E951 /* CDVBattery.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDC015D2451A00E3E951 /* CDVBattery.h */; };
+		3EBDBE1B15D2451A00E3E951 /* CDVBattery.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDC015D2451A00E3E951 /* CDVBattery.h */; };
+		3EBDBE1C15D2451A00E3E951 /* CDVBattery.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDC115D2451A00E3E951 /* CDVBattery.m */; };
+		3EBDBE1D15D2451A00E3E951 /* CDVBattery.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDC115D2451A00E3E951 /* CDVBattery.m */; };
+		3EBDBE1E15D2451A00E3E951 /* CDVBattery.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDC115D2451A00E3E951 /* CDVBattery.m */; };
+		3EBDBE1F15D2451A00E3E951 /* CDVCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDC215D2451A00E3E951 /* CDVCamera.h */; };
+		3EBDBE2015D2451A00E3E951 /* CDVCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDC215D2451A00E3E951 /* CDVCamera.h */; };
+		3EBDBE2115D2451A00E3E951 /* CDVCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDC315D2451A00E3E951 /* CDVCamera.m */; };
+		3EBDBE2215D2451A00E3E951 /* CDVCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDC315D2451A00E3E951 /* CDVCamera.m */; };
+		3EBDBE2315D2451A00E3E951 /* CDVCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDC315D2451A00E3E951 /* CDVCamera.m */; };
+		3EBDBE2415D2451A00E3E951 /* CDVCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDC415D2451A00E3E951 /* CDVCapture.h */; };
+		3EBDBE2515D2451A00E3E951 /* CDVCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDC415D2451A00E3E951 /* CDVCapture.h */; };
+		3EBDBE2615D2451A00E3E951 /* CDVCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDC515D2451A00E3E951 /* CDVCapture.m */; };
+		3EBDBE2715D2451A00E3E951 /* CDVCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDC515D2451A00E3E951 /* CDVCapture.m */; };
+		3EBDBE2815D2451A00E3E951 /* CDVCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDC515D2451A00E3E951 /* CDVCapture.m */; };
+		3EBDBE2915D2451A00E3E951 /* CDVCommandDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDC615D2451A00E3E951 /* CDVCommandDelegate.h */; };
+		3EBDBE2A15D2451A00E3E951 /* CDVCommandDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDC615D2451A00E3E951 /* CDVCommandDelegate.h */; };
+		3EBDBE2B15D2451A00E3E951 /* CDVConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDC715D2451A00E3E951 /* CDVConnection.h */; };
+		3EBDBE2C15D2451A00E3E951 /* CDVConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDC715D2451A00E3E951 /* CDVConnection.h */; };
+		3EBDBE2D15D2451A00E3E951 /* CDVConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDC815D2451A00E3E951 /* CDVConnection.m */; };
+		3EBDBE2E15D2451A00E3E951 /* CDVConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDC815D2451A00E3E951 /* CDVConnection.m */; };
+		3EBDBE2F15D2451A00E3E951 /* CDVConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDC815D2451A00E3E951 /* CDVConnection.m */; };
+		3EBDBE3015D2451A00E3E951 /* CDVContact.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDC915D2451A00E3E951 /* CDVContact.h */; };
+		3EBDBE3115D2451A00E3E951 /* CDVContact.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDC915D2451A00E3E951 /* CDVContact.h */; };
+		3EBDBE3215D2451A00E3E951 /* CDVContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDCA15D2451A00E3E951 /* CDVContact.m */; };
+		3EBDBE3315D2451A00E3E951 /* CDVContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDCA15D2451A00E3E951 /* CDVContact.m */; };
+		3EBDBE3415D2451A00E3E951 /* CDVContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDCA15D2451A00E3E951 /* CDVContact.m */; };
+		3EBDBE3515D2451A00E3E951 /* CDVContacts.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDCB15D2451A00E3E951 /* CDVContacts.h */; };
+		3EBDBE3615D2451A00E3E951 /* CDVContacts.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDCB15D2451A00E3E951 /* CDVContacts.h */; };
+		3EBDBE3715D2451A00E3E951 /* CDVContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDCC15D2451A00E3E951 /* CDVContacts.m */; };
+		3EBDBE3815D2451A00E3E951 /* CDVContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDCC15D2451A00E3E951 /* CDVContacts.m */; };
+		3EBDBE3915D2451A00E3E951 /* CDVContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDCC15D2451A00E3E951 /* CDVContacts.m */; };
+		3EBDBE3A15D2451A00E3E951 /* CDVCordovaView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDCD15D2451A00E3E951 /* CDVCordovaView.h */; };
+		3EBDBE3B15D2451A00E3E951 /* CDVCordovaView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDCD15D2451A00E3E951 /* CDVCordovaView.h */; };
+		3EBDBE3C15D2451A00E3E951 /* CDVCordovaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDCE15D2451A00E3E951 /* CDVCordovaView.m */; };
+		3EBDBE3D15D2451A00E3E951 /* CDVCordovaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDCE15D2451A00E3E951 /* CDVCordovaView.m */; };
+		3EBDBE3E15D2451A00E3E951 /* CDVCordovaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDCE15D2451A00E3E951 /* CDVCordovaView.m */; };
+		3EBDBE3F15D2451A00E3E951 /* CDVDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDCF15D2451A00E3E951 /* CDVDebug.h */; };
+		3EBDBE4015D2451A00E3E951 /* CDVDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDCF15D2451A00E3E951 /* CDVDebug.h */; };
+		3EBDBE4115D2451A00E3E951 /* CDVDebugConsole.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDD015D2451A00E3E951 /* CDVDebugConsole.h */; };
+		3EBDBE4215D2451A00E3E951 /* CDVDebugConsole.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDD015D2451A00E3E951 /* CDVDebugConsole.h */; };
+		3EBDBE4315D2451A00E3E951 /* CDVDebugConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDD115D2451A00E3E951 /* CDVDebugConsole.m */; };
+		3EBDBE4415D2451A00E3E951 /* CDVDebugConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDD115D2451A00E3E951 /* CDVDebugConsole.m */; };
+		3EBDBE4515D2451A00E3E951 /* CDVDebugConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDD115D2451A00E3E951 /* CDVDebugConsole.m */; };
+		3EBDBE4615D2451A00E3E951 /* CDVDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDD215D2451A00E3E951 /* CDVDevice.h */; };
+		3EBDBE4715D2451A00E3E951 /* CDVDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDD215D2451A00E3E951 /* CDVDevice.h */; };
+		3EBDBE4815D2451A00E3E951 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDD315D2451A00E3E951 /* CDVDevice.m */; };
+		3EBDBE4915D2451A00E3E951 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDD315D2451A00E3E951 /* CDVDevice.m */; };
+		3EBDBE4A15D2451A00E3E951 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDD315D2451A00E3E951 /* CDVDevice.m */; };
+		3EBDBE4B15D2451A00E3E951 /* CDVFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDD415D2451A00E3E951 /* CDVFile.h */; };
+		3EBDBE4C15D2451A00E3E951 /* CDVFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDD415D2451A00E3E951 /* CDVFile.h */; };
+		3EBDBE4D15D2451A00E3E951 /* CDVFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDD515D2451A00E3E951 /* CDVFile.m */; };
+		3EBDBE4E15D2451A00E3E951 /* CDVFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDD515D2451A00E3E951 /* CDVFile.m */; };
+		3EBDBE4F15D2451A00E3E951 /* CDVFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDD515D2451A00E3E951 /* CDVFile.m */; };
+		3EBDBE5015D2451A00E3E951 /* CDVFileTransfer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDD615D2451A00E3E951 /* CDVFileTransfer.h */; };
+		3EBDBE5115D2451A00E3E951 /* CDVFileTransfer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDD615D2451A00E3E951 /* CDVFileTransfer.h */; };
+		3EBDBE5215D2451A00E3E951 /* CDVFileTransfer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDD715D2451A00E3E951 /* CDVFileTransfer.m */; };
+		3EBDBE5315D2451A00E3E951 /* CDVFileTransfer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDD715D2451A00E3E951 /* CDVFileTransfer.m */; };
+		3EBDBE5415D2451A00E3E951 /* CDVFileTransfer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDD715D2451A00E3E951 /* CDVFileTransfer.m */; };
+		3EBDBE5515D2451A00E3E951 /* CDVInvokedUrlCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDD815D2451A00E3E951 /* CDVInvokedUrlCommand.h */; };
+		3EBDBE5615D2451A00E3E951 /* CDVInvokedUrlCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDD815D2451A00E3E951 /* CDVInvokedUrlCommand.h */; };
+		3EBDBE5715D2451A00E3E951 /* CDVInvokedUrlCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDD915D2451A00E3E951 /* CDVInvokedUrlCommand.m */; };
+		3EBDBE5815D2451A00E3E951 /* CDVInvokedUrlCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDD915D2451A00E3E951 /* CDVInvokedUrlCommand.m */; };
+		3EBDBE5915D2451A00E3E951 /* CDVInvokedUrlCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDD915D2451A00E3E951 /* CDVInvokedUrlCommand.m */; };
+		3EBDBE5A15D2451A00E3E951 /* CDVLocalStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDDA15D2451A00E3E951 /* CDVLocalStorage.h */; };
+		3EBDBE5B15D2451A00E3E951 /* CDVLocalStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDDA15D2451A00E3E951 /* CDVLocalStorage.h */; };
+		3EBDBE5C15D2451A00E3E951 /* CDVLocalStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDDB15D2451A00E3E951 /* CDVLocalStorage.m */; };
+		3EBDBE5D15D2451A00E3E951 /* CDVLocalStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDDB15D2451A00E3E951 /* CDVLocalStorage.m */; };
+		3EBDBE5E15D2451A00E3E951 /* CDVLocalStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDDB15D2451A00E3E951 /* CDVLocalStorage.m */; };
+		3EBDBE5F15D2451A00E3E951 /* CDVLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDDC15D2451A00E3E951 /* CDVLocation.h */; };
+		3EBDBE6015D2451A00E3E951 /* CDVLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDDC15D2451A00E3E951 /* CDVLocation.h */; };
+		3EBDBE6115D2451A00E3E951 /* CDVLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDDD15D2451A00E3E951 /* CDVLocation.m */; };
+		3EBDBE6215D2451A00E3E951 /* CDVLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDDD15D2451A00E3E951 /* CDVLocation.m */; };
+		3EBDBE6315D2451A00E3E951 /* CDVLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDDD15D2451A00E3E951 /* CDVLocation.m */; };
+		3EBDBE6415D2451A00E3E951 /* CDVLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDDE15D2451A00E3E951 /* CDVLogger.h */; };
+		3EBDBE6515D2451A00E3E951 /* CDVLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDDE15D2451A00E3E951 /* CDVLogger.h */; };
+		3EBDBE6615D2451A00E3E951 /* CDVLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDDF15D2451A00E3E951 /* CDVLogger.m */; };
+		3EBDBE6715D2451A00E3E951 /* CDVLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDDF15D2451A00E3E951 /* CDVLogger.m */; };
+		3EBDBE6815D2451A00E3E951 /* CDVLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDDF15D2451A00E3E951 /* CDVLogger.m */; };
+		3EBDBE6915D2451A00E3E951 /* CDVMotion.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDE015D2451A00E3E951 /* CDVMotion.h */; };
+		3EBDBE6A15D2451A00E3E951 /* CDVMotion.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDE015D2451A00E3E951 /* CDVMotion.h */; };
+		3EBDBE6B15D2451A00E3E951 /* CDVMotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDE115D2451A00E3E951 /* CDVMotion.m */; };
+		3EBDBE6C15D2451A00E3E951 /* CDVMotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDE115D2451A00E3E951 /* CDVMotion.m */; };
+		3EBDBE6D15D2451A00E3E951 /* CDVMotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDE115D2451A00E3E951 /* CDVMotion.m */; };
+		3EBDBE6E15D2451A00E3E951 /* CDVNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDE215D2451A00E3E951 /* CDVNotification.h */; };
+		3EBDBE6F15D2451A00E3E951 /* CDVNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDE215D2451A00E3E951 /* CDVNotification.h */; };
+		3EBDBE7015D2451A00E3E951 /* CDVNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDE315D2451A00E3E951 /* CDVNotification.m */; };
+		3EBDBE7115D2451A00E3E951 /* CDVNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDE315D2451A00E3E951 /* CDVNotification.m */; };
+		3EBDBE7215D2451A00E3E951 /* CDVNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDE315D2451A00E3E951 /* CDVNotification.m */; };
+		3EBDBE7315D2451A00E3E951 /* CDVPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDE415D2451A00E3E951 /* CDVPlugin.h */; };
+		3EBDBE7415D2451A00E3E951 /* CDVPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDE415D2451A00E3E951 /* CDVPlugin.h */; };
+		3EBDBE7515D2451A00E3E951 /* CDVPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDE515D2451A00E3E951 /* CDVPlugin.m */; };
+		3EBDBE7615D2451A00E3E951 /* CDVPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDE515D2451A00E3E951 /* CDVPlugin.m */; };
+		3EBDBE7715D2451A00E3E951 /* CDVPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDE515D2451A00E3E951 /* CDVPlugin.m */; };
+		3EBDBE7815D2451A00E3E951 /* CDVPluginResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDE615D2451A00E3E951 /* CDVPluginResult.h */; };
+		3EBDBE7915D2451A00E3E951 /* CDVPluginResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDE615D2451A00E3E951 /* CDVPluginResult.h */; };
+		3EBDBE7A15D2451A00E3E951 /* CDVPluginResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDE715D2451A00E3E951 /* CDVPluginResult.m */; };
+		3EBDBE7B15D2451A00E3E951 /* CDVPluginResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDE715D2451A00E3E951 /* CDVPluginResult.m */; };
+		3EBDBE7C15D2451A00E3E951 /* CDVPluginResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDE715D2451A00E3E951 /* CDVPluginResult.m */; };
+		3EBDBE7D15D2451A00E3E951 /* CDVReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDE815D2451A00E3E951 /* CDVReachability.h */; };
+		3EBDBE7E15D2451A00E3E951 /* CDVReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDE815D2451A00E3E951 /* CDVReachability.h */; };
+		3EBDBE7F15D2451A00E3E951 /* CDVReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDE915D2451A00E3E951 /* CDVReachability.m */; };
+		3EBDBE8015D2451A00E3E951 /* CDVReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDE915D2451A00E3E951 /* CDVReachability.m */; };
+		3EBDBE8115D2451A00E3E951 /* CDVReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDE915D2451A00E3E951 /* CDVReachability.m */; };
+		3EBDBE8215D2451A00E3E951 /* CDVSound.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDEA15D2451A00E3E951 /* CDVSound.h */; };
+		3EBDBE8315D2451A00E3E951 /* CDVSound.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDEA15D2451A00E3E951 /* CDVSound.h */; };
+		3EBDBE8415D2451A00E3E951 /* CDVSound.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDEB15D2451A00E3E951 /* CDVSound.m */; };
+		3EBDBE8515D2451A00E3E951 /* CDVSound.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDEB15D2451A00E3E951 /* CDVSound.m */; };
+		3EBDBE8615D2451A00E3E951 /* CDVSound.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDEB15D2451A00E3E951 /* CDVSound.m */; };
+		3EBDBE8715D2451A00E3E951 /* CDVSplashScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDEC15D2451A00E3E951 /* CDVSplashScreen.h */; };
+		3EBDBE8815D2451A00E3E951 /* CDVSplashScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDEC15D2451A00E3E951 /* CDVSplashScreen.h */; };
+		3EBDBE8915D2451A00E3E951 /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDED15D2451A00E3E951 /* CDVSplashScreen.m */; };
+		3EBDBE8A15D2451A00E3E951 /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDED15D2451A00E3E951 /* CDVSplashScreen.m */; };
+		3EBDBE8B15D2451A00E3E951 /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDED15D2451A00E3E951 /* CDVSplashScreen.m */; };
+		3EBDBE8C15D2451A00E3E951 /* CDVURLProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDEE15D2451A00E3E951 /* CDVURLProtocol.h */; };
+		3EBDBE8D15D2451A00E3E951 /* CDVURLProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDEE15D2451A00E3E951 /* CDVURLProtocol.h */; };
+		3EBDBE8E15D2451A00E3E951 /* CDVURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDEF15D2451A00E3E951 /* CDVURLProtocol.m */; };
+		3EBDBE8F15D2451A00E3E951 /* CDVURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDEF15D2451A00E3E951 /* CDVURLProtocol.m */; };
+		3EBDBE9015D2451A00E3E951 /* CDVURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDEF15D2451A00E3E951 /* CDVURLProtocol.m */; };
+		3EBDBE9115D2451A00E3E951 /* CDVViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDF015D2451A00E3E951 /* CDVViewController.h */; };
+		3EBDBE9215D2451A00E3E951 /* CDVViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDF015D2451A00E3E951 /* CDVViewController.h */; };
+		3EBDBE9315D2451A00E3E951 /* CDVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDF115D2451A00E3E951 /* CDVViewController.m */; };
+		3EBDBE9415D2451A00E3E951 /* CDVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDF115D2451A00E3E951 /* CDVViewController.m */; };
+		3EBDBE9515D2451A00E3E951 /* CDVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDF115D2451A00E3E951 /* CDVViewController.m */; };
+		3EBDBE9615D2451A00E3E951 /* CDVWhitelist.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDF215D2451A00E3E951 /* CDVWhitelist.h */; };
+		3EBDBE9715D2451A00E3E951 /* CDVWhitelist.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBDF215D2451A00E3E951 /* CDVWhitelist.h */; };
+		3EBDBE9815D2451A00E3E951 /* CDVWhitelist.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDF315D2451A00E3E951 /* CDVWhitelist.m */; };
+		3EBDBE9915D2451A00E3E951 /* CDVWhitelist.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDF315D2451A00E3E951 /* CDVWhitelist.m */; };
+		3EBDBE9A15D2451A00E3E951 /* CDVWhitelist.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBDF315D2451A00E3E951 /* CDVWhitelist.m */; };
+		3EBDBEAE15D2451A00E3E951 /* CDVDeprecated.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBE0215D2451A00E3E951 /* CDVDeprecated.h */; };
+		3EBDBEAF15D2451A00E3E951 /* CDVDeprecated.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBE0215D2451A00E3E951 /* CDVDeprecated.h */; };
+		3EBDBEB015D2451A00E3E951 /* CDVDeprecated.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBE0315D2451A00E3E951 /* CDVDeprecated.m */; };
+		3EBDBEB115D2451A00E3E951 /* CDVDeprecated.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBE0315D2451A00E3E951 /* CDVDeprecated.m */; };
+		3EBDBEB215D2451A00E3E951 /* CDVDeprecated.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBE0315D2451A00E3E951 /* CDVDeprecated.m */; };
+		3EBDBEB315D2451A00E3E951 /* JSONKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBE0515D2451A00E3E951 /* JSONKit.h */; };
+		3EBDBEB415D2451A00E3E951 /* JSONKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBE0515D2451A00E3E951 /* JSONKit.h */; };
+		3EBDBEB515D2451A00E3E951 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBE0615D2451A00E3E951 /* JSONKit.m */; };
+		3EBDBEB615D2451A00E3E951 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBE0615D2451A00E3E951 /* JSONKit.m */; };
+		3EBDBEB715D2451A00E3E951 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBE0615D2451A00E3E951 /* JSONKit.m */; };
+		3EBDBEB815D2451A00E3E951 /* NSArray+Comparisons.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBE0715D2451A00E3E951 /* NSArray+Comparisons.h */; };
+		3EBDBEB915D2451A00E3E951 /* NSArray+Comparisons.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBE0715D2451A00E3E951 /* NSArray+Comparisons.h */; };
+		3EBDBEBA15D2451A00E3E951 /* NSArray+Comparisons.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBE0815D2451A00E3E951 /* NSArray+Comparisons.m */; };
+		3EBDBEBB15D2451A00E3E951 /* NSArray+Comparisons.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBE0815D2451A00E3E951 /* NSArray+Comparisons.m */; };
+		3EBDBEBC15D2451A00E3E951 /* NSArray+Comparisons.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBE0815D2451A00E3E951 /* NSArray+Comparisons.m */; };
+		3EBDBEBD15D2451A00E3E951 /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBE0915D2451A00E3E951 /* NSData+Base64.h */; };
+		3EBDBEBE15D2451A00E3E951 /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBE0915D2451A00E3E951 /* NSData+Base64.h */; };
+		3EBDBEBF15D2451A00E3E951 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBE0A15D2451A00E3E951 /* NSData+Base64.m */; };
+		3EBDBEC015D2451A00E3E951 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBE0A15D2451A00E3E951 /* NSData+Base64.m */; };
+		3EBDBEC115D2451A00E3E951 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBE0A15D2451A00E3E951 /* NSData+Base64.m */; };
+		3EBDBEC215D2451A00E3E951 /* NSDictionary+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBE0B15D2451A00E3E951 /* NSDictionary+Extensions.h */; };
+		3EBDBEC315D2451A00E3E951 /* NSDictionary+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBE0B15D2451A00E3E951 /* NSDictionary+Extensions.h */; };
+		3EBDBEC415D2451A00E3E951 /* NSDictionary+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBE0C15D2451A00E3E951 /* NSDictionary+Extensions.m */; };
+		3EBDBEC515D2451A00E3E951 /* NSDictionary+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBE0C15D2451A00E3E951 /* NSDictionary+Extensions.m */; };
+		3EBDBEC615D2451A00E3E951 /* NSDictionary+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBE0C15D2451A00E3E951 /* NSDictionary+Extensions.m */; };
+		3EBDBEC715D2451A00E3E951 /* NSMutableArray+QueueAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBE0D15D2451A00E3E951 /* NSMutableArray+QueueAdditions.h */; };
+		3EBDBEC815D2451A00E3E951 /* NSMutableArray+QueueAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBE0D15D2451A00E3E951 /* NSMutableArray+QueueAdditions.h */; };
+		3EBDBEC915D2451A00E3E951 /* NSMutableArray+QueueAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBE0E15D2451A00E3E951 /* NSMutableArray+QueueAdditions.m */; };
+		3EBDBECA15D2451A00E3E951 /* NSMutableArray+QueueAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBE0E15D2451A00E3E951 /* NSMutableArray+QueueAdditions.m */; };
+		3EBDBECB15D2451A00E3E951 /* NSMutableArray+QueueAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBE0E15D2451A00E3E951 /* NSMutableArray+QueueAdditions.m */; };
+		3EBDBECC15D2451A00E3E951 /* UIDevice+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBE0F15D2451A00E3E951 /* UIDevice+Extensions.h */; };
+		3EBDBECD15D2451A00E3E951 /* UIDevice+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBDBE0F15D2451A00E3E951 /* UIDevice+Extensions.h */; };
+		3EBDBECE15D2451A00E3E951 /* UIDevice+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBE1015D2451A00E3E951 /* UIDevice+Extensions.m */; };
+		3EBDBECF15D2451A00E3E951 /* UIDevice+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBE1015D2451A00E3E951 /* UIDevice+Extensions.m */; };
+		3EBDBED015D2451A00E3E951 /* UIDevice+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDBE1015D2451A00E3E951 /* UIDevice+Extensions.m */; };
+		3ECF1BE115A0796A00B9511E /* CrossPlatformTemplaterForDebuggerIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4F51BF15A05C8A0054EB23 /* CrossPlatformTemplaterForDebuggerIOS.a */; };
+		3ED315E715DFA837008B7E1C /* 404 in Resources */ = {isa = PBXBuildFile; fileRef = 3ED315E615DFA837008B7E1C /* 404 */; };
+		3EEB4FB415E23F6A00FE5E83 /* MonacaURLCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EEB4FB215E23F6A00FE5E83 /* MonacaURLCache.h */; };
+		3EEB4FB515E23F6A00FE5E83 /* MonacaURLCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EEB4FB315E23F6A00FE5E83 /* MonacaURLCache.m */; };
+		3EEB4FB715E2407600FE5E83 /* MonacaURLCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EEB4FB315E23F6A00FE5E83 /* MonacaURLCache.m */; };
+		3EEB4FB815E2407800FE5E83 /* MonacaURLCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EEB4FB315E23F6A00FE5E83 /* MonacaURLCache.m */; };
+		3EEB4FB915E2407A00FE5E83 /* MonacaURLCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EEB4FB215E23F6A00FE5E83 /* MonacaURLCache.h */; };
+		D44C9E2D1592ED86006372F3 /* NCButton.h in Headers */ = {isa = PBXBuildFile; fileRef = D44C9E291592ED86006372F3 /* NCButton.h */; };
+		D44C9E2E1592ED86006372F3 /* NCButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D44C9E2A1592ED86006372F3 /* NCButton.m */; };
+		D44C9E2F1592ED86006372F3 /* NCSearchBar.h in Headers */ = {isa = PBXBuildFile; fileRef = D44C9E2B1592ED86006372F3 /* NCSearchBar.h */; };
+		D44C9E301592ED86006372F3 /* NCSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D44C9E2C1592ED86006372F3 /* NCSearchBar.m */; };
+		F50460E213B3633B0050803F /* MonacaDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F50460D813B3633B0050803F /* MonacaDelegate.m */; };
+		F50460E513B3633B0050803F /* MonacaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F50460DA13B3633B0050803F /* MonacaViewController.m */; };
+		F50460ED13B3633B0050803F /* Utility.h in Headers */ = {isa = PBXBuildFile; fileRef = F50460DF13B3633B0050803F /* Utility.h */; };
+		F50460EE13B3633B0050803F /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = F50460E013B3633B0050803F /* Utility.m */; };
+		F504612313B364C60050803F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F504611413B364C60050803F /* Foundation.framework */; };
+		F504612513B364C60050803F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F504611513B364C60050803F /* UIKit.framework */; };
+		F504612713B364C60050803F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F504611613B364C60050803F /* CoreGraphics.framework */; };
+		F504612913B364C60050803F /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F504611713B364C60050803F /* AddressBook.framework */; };
+		F504612B13B364C60050803F /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F504611813B364C60050803F /* AddressBookUI.framework */; };
+		F504612D13B364C60050803F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F504611913B364C60050803F /* AVFoundation.framework */; };
+		F504613113B364C60050803F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F504611B13B364C60050803F /* CoreLocation.framework */; };
+		F504613313B364C60050803F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F504611C13B364C60050803F /* MediaPlayer.framework */; };
+		F504613513B364C60050803F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F504611D13B364C60050803F /* MobileCoreServices.framework */; };
+		F504613713B364C60050803F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F504611E13B364C60050803F /* QuartzCore.framework */; };
+		F504613913B364C60050803F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F504611F13B364C60050803F /* SystemConfiguration.framework */; };
+		F504613B13B364C60050803F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F504612013B364C60050803F /* AudioToolbox.framework */; };
+		F54FBB3F14BBE04100F702D9 /* Device.h in Headers */ = {isa = PBXBuildFile; fileRef = F54FBB3D14BBE04000F702D9 /* Device.h */; };
+		F54FBB4014BBE04100F702D9 /* Device.m in Sources */ = {isa = PBXBuildFile; fileRef = F54FBB3E14BBE04100F702D9 /* Device.m */; };
+		F57E51BE13D2CCC200074B18 /* MonacaDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F57E51BC13D2CCC200074B18 /* MonacaDelegate.h */; };
+		F57E51BF13D2CCC200074B18 /* MonacaViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F57E51BD13D2CCC200074B18 /* MonacaViewController.h */; };
+		F57E523413D2E8DE00074B18 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F57E523313D2E8DE00074B18 /* CoreMedia.framework */; };
+		F5921FB7146B80F00025DED5 /* MonacaTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = F5921FB5146B80F00025DED5 /* MonacaTabBarController.h */; };
+		F5921FB8146B80F00025DED5 /* MonacaTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5921FB6146B80F00025DED5 /* MonacaTabBarController.m */; };
+		F5E0F7DF1506116900DC7988 /* NativeComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E0F7C71506116900DC7988 /* NativeComponents.h */; };
+		F5E0F7E01506116900DC7988 /* NativeComponentsInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E0F7C81506116900DC7988 /* NativeComponentsInternal.h */; };
+		F5E0F7E11506116900DC7988 /* NCBackButtonBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E0F7C91506116900DC7988 /* NCBackButtonBuilder.h */; };
+		F5E0F7E21506116900DC7988 /* NCBackButtonBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E0F7CA1506116900DC7988 /* NCBackButtonBuilder.m */; };
+		F5E0F7E31506116900DC7988 /* NCButtonBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E0F7CB1506116900DC7988 /* NCButtonBuilder.h */; };
+		F5E0F7E41506116900DC7988 /* NCButtonBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E0F7CC1506116900DC7988 /* NCButtonBuilder.m */; };
+		F5E0F7E51506116900DC7988 /* NCContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E0F7CD1506116900DC7988 /* NCContainer.h */; };
+		F5E0F7E61506116900DC7988 /* NCContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E0F7CE1506116900DC7988 /* NCContainer.m */; };
+		F5E0F7E71506116900DC7988 /* NCLabelBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E0F7CF1506116900DC7988 /* NCLabelBuilder.h */; };
+		F5E0F7E81506116900DC7988 /* NCLabelBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E0F7D01506116900DC7988 /* NCLabelBuilder.m */; };
+		F5E0F7E91506116900DC7988 /* NCManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E0F7D11506116900DC7988 /* NCManager.h */; };
+		F5E0F7EA1506116900DC7988 /* NCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E0F7D21506116900DC7988 /* NCManager.m */; };
+		F5E0F7EB1506116900DC7988 /* NCSearchBoxBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E0F7D31506116900DC7988 /* NCSearchBoxBuilder.h */; };
+		F5E0F7EC1506116900DC7988 /* NCSearchBoxBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E0F7D41506116900DC7988 /* NCSearchBoxBuilder.m */; };
+		F5E0F7ED1506116900DC7988 /* NCSegmentBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E0F7D51506116900DC7988 /* NCSegmentBuilder.h */; };
+		F5E0F7EE1506116900DC7988 /* NCSegmentBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E0F7D61506116900DC7988 /* NCSegmentBuilder.m */; };
+		F5E0F7EF1506116900DC7988 /* NCTabbarItemBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E0F7D71506116900DC7988 /* NCTabbarItemBuilder.h */; };
+		F5E0F7F01506116900DC7988 /* NCTabbarItemBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E0F7D81506116900DC7988 /* NCTabbarItemBuilder.m */; };
+		F5E0F7F11506116900DC7988 /* NCTitleView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E0F7D91506116900DC7988 /* NCTitleView.h */; };
+		F5E0F7F21506116900DC7988 /* NCTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E0F7DA1506116900DC7988 /* NCTitleView.m */; };
+		F5E0F7F31506116900DC7988 /* NCToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E0F7DB1506116900DC7988 /* NCToolbar.h */; };
+		F5E0F7F41506116900DC7988 /* NCToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E0F7DC1506116900DC7988 /* NCToolbar.m */; };
+		F5E0F7F51506116900DC7988 /* UILabel+Resize.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E0F7DD1506116900DC7988 /* UILabel+Resize.h */; };
+		F5E0F7F61506116900DC7988 /* UILabel+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E0F7DE1506116900DC7988 /* UILabel+Resize.m */; };
+		F5E0F7FA1506117E00DC7988 /* MonacaTemplateEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E0F7F81506117E00DC7988 /* MonacaTemplateEngine.h */; };
+		F5EF734414EE84A8003B7BA5 /* MonacaTabBarController+Bottom.h in Headers */ = {isa = PBXBuildFile; fileRef = F5EF734214EE84A8003B7BA5 /* MonacaTabBarController+Bottom.h */; };
+		F5EF734514EE84A8003B7BA5 /* MonacaTabBarController+Bottom.m in Sources */ = {isa = PBXBuildFile; fileRef = F5EF734314EE84A8003B7BA5 /* MonacaTabBarController+Bottom.m */; };
+		F5EF734D14EE8AA2003B7BA5 /* MonacaTabBarController+Top.h in Headers */ = {isa = PBXBuildFile; fileRef = F5EF734B14EE8AA1003B7BA5 /* MonacaTabBarController+Top.h */; };
+		F5EF734E14EE8AA2003B7BA5 /* MonacaTabBarController+Top.m in Sources */ = {isa = PBXBuildFile; fileRef = F5EF734C14EE8AA1003B7BA5 /* MonacaTabBarController+Top.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E0F08FD15A81D000025EFC2 /* MFPGNativeComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFPGNativeComponent.h; sourceTree = "<group>"; };
+		3E0F08FE15A81D000025EFC2 /* MFPGNativeComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFPGNativeComponent.m; sourceTree = "<group>"; };
+		3E4F50FD15A040DE0054EB23 /* MonacaTransitPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonacaTransitPlugin.h; sourceTree = "<group>"; };
+		3E4F50FE15A040DE0054EB23 /* MonacaTransitPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonacaTransitPlugin.m; sourceTree = "<group>"; };
+		3E4F510215A0419E0054EB23 /* MonacaNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonacaNavigationController.h; sourceTree = "<group>"; };
+		3E4F510315A0419E0054EB23 /* MonacaNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonacaNavigationController.m; sourceTree = "<group>"; };
+		3E4F51BC15A05BF10054EB23 /* libMonacaFrameworkForApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMonacaFrameworkForApp.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4F51BE15A05C8A0054EB23 /* CrossPlatformTemplaterForAppIOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = CrossPlatformTemplaterForAppIOS.a; sourceTree = "<group>"; };
+		3E4F51BF15A05C8A0054EB23 /* CrossPlatformTemplaterForDebuggerIOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = CrossPlatformTemplaterForDebuggerIOS.a; sourceTree = "<group>"; };
+		3E4F51C015A05C8A0054EB23 /* CrossPlatformTemplaterForDebuggerSimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = CrossPlatformTemplaterForDebuggerSimulator.a; sourceTree = "<group>"; };
+		3E6A9A2D15DFB1D7004D530D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3E6A9A3015DFB215004D530D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3E6A9A3215DFB21F004D530D /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3E6A9A3415DFB473004D530D /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3E7FD2B3159D8F2300E85C81 /* MonacaViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonacaViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E7FD2BA159D8F2400E85C81 /* MonacaViewTest-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MonacaViewTest-Info.plist"; sourceTree = "<group>"; };
+		3E7FD2BE159D8F2400E85C81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E7FD2C0159D8F2400E85C81 /* MonacaViewTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MonacaViewTest-Prefix.pch"; sourceTree = "<group>"; };
+		3E7FD31E159EA3ED00E85C81 /* MonacaURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonacaURLProtocol.h; sourceTree = "<group>"; };
+		3E7FD31F159EA3EE00E85C81 /* MonacaURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonacaURLProtocol.m; sourceTree = "<group>"; };
+		3E7FD328159EA92F00E85C81 /* Cordova.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Cordova.plist; path = MonacaViewTest/Cordova.plist; sourceTree = SOURCE_ROOT; };
+		3E7FD345159ED11A00E85C81 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = MonacaViewTest/www; sourceTree = SOURCE_ROOT; };
+		3E8FB61315D6354D0036993C /* VERSION */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VERSION; sourceTree = "<group>"; };
+		3EBDBDBC15D2451A00E3E951 /* CDV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDV.h; sourceTree = "<group>"; };
+		3EBDBDBD15D2451A00E3E951 /* CDVAccelerometer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVAccelerometer.h; sourceTree = "<group>"; };
+		3EBDBDBE15D2451A00E3E951 /* CDVAccelerometer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVAccelerometer.m; sourceTree = "<group>"; };
+		3EBDBDBF15D2451A00E3E951 /* CDVAvailability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVAvailability.h; sourceTree = "<group>"; };
+		3EBDBDC015D2451A00E3E951 /* CDVBattery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVBattery.h; sourceTree = "<group>"; };
+		3EBDBDC115D2451A00E3E951 /* CDVBattery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVBattery.m; sourceTree = "<group>"; };
+		3EBDBDC215D2451A00E3E951 /* CDVCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVCamera.h; sourceTree = "<group>"; };
+		3EBDBDC315D2451A00E3E951 /* CDVCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVCamera.m; sourceTree = "<group>"; };
+		3EBDBDC415D2451A00E3E951 /* CDVCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVCapture.h; sourceTree = "<group>"; };
+		3EBDBDC515D2451A00E3E951 /* CDVCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVCapture.m; sourceTree = "<group>"; };
+		3EBDBDC615D2451A00E3E951 /* CDVCommandDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVCommandDelegate.h; sourceTree = "<group>"; };
+		3EBDBDC715D2451A00E3E951 /* CDVConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVConnection.h; sourceTree = "<group>"; };
+		3EBDBDC815D2451A00E3E951 /* CDVConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVConnection.m; sourceTree = "<group>"; };
+		3EBDBDC915D2451A00E3E951 /* CDVContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVContact.h; sourceTree = "<group>"; };
+		3EBDBDCA15D2451A00E3E951 /* CDVContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVContact.m; sourceTree = "<group>"; };
+		3EBDBDCB15D2451A00E3E951 /* CDVContacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVContacts.h; sourceTree = "<group>"; };
+		3EBDBDCC15D2451A00E3E951 /* CDVContacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVContacts.m; sourceTree = "<group>"; };
+		3EBDBDCD15D2451A00E3E951 /* CDVCordovaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVCordovaView.h; sourceTree = "<group>"; };
+		3EBDBDCE15D2451A00E3E951 /* CDVCordovaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVCordovaView.m; sourceTree = "<group>"; };
+		3EBDBDCF15D2451A00E3E951 /* CDVDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVDebug.h; sourceTree = "<group>"; };
+		3EBDBDD015D2451A00E3E951 /* CDVDebugConsole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVDebugConsole.h; sourceTree = "<group>"; };
+		3EBDBDD115D2451A00E3E951 /* CDVDebugConsole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVDebugConsole.m; sourceTree = "<group>"; };
+		3EBDBDD215D2451A00E3E951 /* CDVDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVDevice.h; sourceTree = "<group>"; };
+		3EBDBDD315D2451A00E3E951 /* CDVDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVDevice.m; sourceTree = "<group>"; };
+		3EBDBDD415D2451A00E3E951 /* CDVFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVFile.h; sourceTree = "<group>"; };
+		3EBDBDD515D2451A00E3E951 /* CDVFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVFile.m; sourceTree = "<group>"; };
+		3EBDBDD615D2451A00E3E951 /* CDVFileTransfer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVFileTransfer.h; sourceTree = "<group>"; };
+		3EBDBDD715D2451A00E3E951 /* CDVFileTransfer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVFileTransfer.m; sourceTree = "<group>"; };
+		3EBDBDD815D2451A00E3E951 /* CDVInvokedUrlCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVInvokedUrlCommand.h; sourceTree = "<group>"; };
+		3EBDBDD915D2451A00E3E951 /* CDVInvokedUrlCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVInvokedUrlCommand.m; sourceTree = "<group>"; };
+		3EBDBDDA15D2451A00E3E951 /* CDVLocalStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVLocalStorage.h; sourceTree = "<group>"; };
+		3EBDBDDB15D2451A00E3E951 /* CDVLocalStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVLocalStorage.m; sourceTree = "<group>"; };
+		3EBDBDDC15D2451A00E3E951 /* CDVLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVLocation.h; sourceTree = "<group>"; };
+		3EBDBDDD15D2451A00E3E951 /* CDVLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVLocation.m; sourceTree = "<group>"; };
+		3EBDBDDE15D2451A00E3E951 /* CDVLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVLogger.h; sourceTree = "<group>"; };
+		3EBDBDDF15D2451A00E3E951 /* CDVLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVLogger.m; sourceTree = "<group>"; };
+		3EBDBDE015D2451A00E3E951 /* CDVMotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVMotion.h; sourceTree = "<group>"; };
+		3EBDBDE115D2451A00E3E951 /* CDVMotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVMotion.m; sourceTree = "<group>"; };
+		3EBDBDE215D2451A00E3E951 /* CDVNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVNotification.h; sourceTree = "<group>"; };
+		3EBDBDE315D2451A00E3E951 /* CDVNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVNotification.m; sourceTree = "<group>"; };
+		3EBDBDE415D2451A00E3E951 /* CDVPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVPlugin.h; sourceTree = "<group>"; };
+		3EBDBDE515D2451A00E3E951 /* CDVPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVPlugin.m; sourceTree = "<group>"; };
+		3EBDBDE615D2451A00E3E951 /* CDVPluginResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVPluginResult.h; sourceTree = "<group>"; };
+		3EBDBDE715D2451A00E3E951 /* CDVPluginResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVPluginResult.m; sourceTree = "<group>"; };
+		3EBDBDE815D2451A00E3E951 /* CDVReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVReachability.h; sourceTree = "<group>"; };
+		3EBDBDE915D2451A00E3E951 /* CDVReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVReachability.m; sourceTree = "<group>"; };
+		3EBDBDEA15D2451A00E3E951 /* CDVSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVSound.h; sourceTree = "<group>"; };
+		3EBDBDEB15D2451A00E3E951 /* CDVSound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVSound.m; sourceTree = "<group>"; };
+		3EBDBDEC15D2451A00E3E951 /* CDVSplashScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVSplashScreen.h; sourceTree = "<group>"; };
+		3EBDBDED15D2451A00E3E951 /* CDVSplashScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVSplashScreen.m; sourceTree = "<group>"; };
+		3EBDBDEE15D2451A00E3E951 /* CDVURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVURLProtocol.h; sourceTree = "<group>"; };
+		3EBDBDEF15D2451A00E3E951 /* CDVURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVURLProtocol.m; sourceTree = "<group>"; };
+		3EBDBDF015D2451A00E3E951 /* CDVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVViewController.h; sourceTree = "<group>"; };
+		3EBDBDF115D2451A00E3E951 /* CDVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVViewController.m; sourceTree = "<group>"; };
+		3EBDBDF215D2451A00E3E951 /* CDVWhitelist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVWhitelist.h; sourceTree = "<group>"; };
+		3EBDBDF315D2451A00E3E951 /* CDVWhitelist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVWhitelist.m; sourceTree = "<group>"; };
+		3EBDBE0215D2451A00E3E951 /* CDVDeprecated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVDeprecated.h; sourceTree = "<group>"; };
+		3EBDBE0315D2451A00E3E951 /* CDVDeprecated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVDeprecated.m; sourceTree = "<group>"; };
+		3EBDBE0515D2451A00E3E951 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		3EBDBE0615D2451A00E3E951 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		3EBDBE0715D2451A00E3E951 /* NSArray+Comparisons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Comparisons.h"; sourceTree = "<group>"; };
+		3EBDBE0815D2451A00E3E951 /* NSArray+Comparisons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Comparisons.m"; sourceTree = "<group>"; };
+		3EBDBE0915D2451A00E3E951 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		3EBDBE0A15D2451A00E3E951 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		3EBDBE0B15D2451A00E3E951 /* NSDictionary+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Extensions.h"; sourceTree = "<group>"; };
+		3EBDBE0C15D2451A00E3E951 /* NSDictionary+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Extensions.m"; sourceTree = "<group>"; };
+		3EBDBE0D15D2451A00E3E951 /* NSMutableArray+QueueAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+QueueAdditions.h"; sourceTree = "<group>"; };
+		3EBDBE0E15D2451A00E3E951 /* NSMutableArray+QueueAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+QueueAdditions.m"; sourceTree = "<group>"; };
+		3EBDBE0F15D2451A00E3E951 /* UIDevice+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Extensions.h"; sourceTree = "<group>"; };
+		3EBDBE1015D2451A00E3E951 /* UIDevice+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Extensions.m"; sourceTree = "<group>"; };
+		3ED315E615DFA837008B7E1C /* 404 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 404; sourceTree = "<group>"; };
+		3EEB4FB215E23F6A00FE5E83 /* MonacaURLCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonacaURLCache.h; sourceTree = "<group>"; };
+		3EEB4FB315E23F6A00FE5E83 /* MonacaURLCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonacaURLCache.m; sourceTree = "<group>"; };
+		D44C9E291592ED86006372F3 /* NCButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCButton.h; sourceTree = "<group>"; };
+		D44C9E2A1592ED86006372F3 /* NCButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCButton.m; sourceTree = "<group>"; };
+		D44C9E2B1592ED86006372F3 /* NCSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCSearchBar.h; sourceTree = "<group>"; };
+		D44C9E2C1592ED86006372F3 /* NCSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCSearchBar.m; sourceTree = "<group>"; };
+		F50460A513B361730050803F /* libMonacaFrameworkForDebugger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMonacaFrameworkForDebugger.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F50460AC13B361730050803F /* MonacaFramework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MonacaFramework-Prefix.pch"; sourceTree = "<group>"; };
+		F50460D813B3633B0050803F /* MonacaDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonacaDelegate.m; sourceTree = "<group>"; };
+		F50460DA13B3633B0050803F /* MonacaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonacaViewController.m; sourceTree = "<group>"; };
+		F50460DF13B3633B0050803F /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		F50460E013B3633B0050803F /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		F504611413B364C60050803F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F504611513B364C60050803F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F504611613B364C60050803F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F504611713B364C60050803F /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		F504611813B364C60050803F /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		F504611913B364C60050803F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F504611B13B364C60050803F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F504611C13B364C60050803F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		F504611D13B364C60050803F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F504611E13B364C60050803F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F504611F13B364C60050803F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F504612013B364C60050803F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F54FBB3D14BBE04000F702D9 /* Device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Device.h; sourceTree = "<group>"; };
+		F54FBB3E14BBE04100F702D9 /* Device.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Device.m; sourceTree = "<group>"; };
+		F57E51BC13D2CCC200074B18 /* MonacaDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MonacaDelegate.h; path = MonacaFramework/MonacaDelegate.h; sourceTree = SOURCE_ROOT; };
+		F57E51BD13D2CCC200074B18 /* MonacaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MonacaViewController.h; path = MonacaFramework/MonacaViewController.h; sourceTree = SOURCE_ROOT; };
+		F57E523313D2E8DE00074B18 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		F5921FB5146B80F00025DED5 /* MonacaTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonacaTabBarController.h; sourceTree = "<group>"; };
+		F5921FB6146B80F00025DED5 /* MonacaTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonacaTabBarController.m; sourceTree = "<group>"; };
+		F5955CF714A31F8B00E488FF /* Products */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Products; path = MonacaFramework/Products; sourceTree = "<group>"; };
+		F5E0F7C71506116900DC7988 /* NativeComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeComponents.h; sourceTree = "<group>"; };
+		F5E0F7C81506116900DC7988 /* NativeComponentsInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeComponentsInternal.h; sourceTree = "<group>"; };
+		F5E0F7C91506116900DC7988 /* NCBackButtonBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCBackButtonBuilder.h; sourceTree = "<group>"; };
+		F5E0F7CA1506116900DC7988 /* NCBackButtonBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCBackButtonBuilder.m; sourceTree = "<group>"; };
+		F5E0F7CB1506116900DC7988 /* NCButtonBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCButtonBuilder.h; sourceTree = "<group>"; };
+		F5E0F7CC1506116900DC7988 /* NCButtonBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCButtonBuilder.m; sourceTree = "<group>"; };
+		F5E0F7CD1506116900DC7988 /* NCContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCContainer.h; sourceTree = "<group>"; };
+		F5E0F7CE1506116900DC7988 /* NCContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCContainer.m; sourceTree = "<group>"; };
+		F5E0F7CF1506116900DC7988 /* NCLabelBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCLabelBuilder.h; sourceTree = "<group>"; };
+		F5E0F7D01506116900DC7988 /* NCLabelBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCLabelBuilder.m; sourceTree = "<group>"; };
+		F5E0F7D11506116900DC7988 /* NCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCManager.h; sourceTree = "<group>"; };
+		F5E0F7D21506116900DC7988 /* NCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCManager.m; sourceTree = "<group>"; };
+		F5E0F7D31506116900DC7988 /* NCSearchBoxBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCSearchBoxBuilder.h; sourceTree = "<group>"; };
+		F5E0F7D41506116900DC7988 /* NCSearchBoxBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCSearchBoxBuilder.m; sourceTree = "<group>"; };
+		F5E0F7D51506116900DC7988 /* NCSegmentBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCSegmentBuilder.h; sourceTree = "<group>"; };
+		F5E0F7D61506116900DC7988 /* NCSegmentBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCSegmentBuilder.m; sourceTree = "<group>"; };
+		F5E0F7D71506116900DC7988 /* NCTabbarItemBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCTabbarItemBuilder.h; sourceTree = "<group>"; };
+		F5E0F7D81506116900DC7988 /* NCTabbarItemBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCTabbarItemBuilder.m; sourceTree = "<group>"; };
+		F5E0F7D91506116900DC7988 /* NCTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCTitleView.h; sourceTree = "<group>"; };
+		F5E0F7DA1506116900DC7988 /* NCTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCTitleView.m; sourceTree = "<group>"; };
+		F5E0F7DB1506116900DC7988 /* NCToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCToolbar.h; sourceTree = "<group>"; };
+		F5E0F7DC1506116900DC7988 /* NCToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCToolbar.m; sourceTree = "<group>"; };
+		F5E0F7DD1506116900DC7988 /* UILabel+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Resize.h"; sourceTree = "<group>"; };
+		F5E0F7DE1506116900DC7988 /* UILabel+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Resize.m"; sourceTree = "<group>"; };
+		F5E0F7F71506117E00DC7988 /* CrossPlatformTemplaterForAppSimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = CrossPlatformTemplaterForAppSimulator.a; sourceTree = "<group>"; };
+		F5E0F7F81506117E00DC7988 /* MonacaTemplateEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonacaTemplateEngine.h; sourceTree = "<group>"; };
+		F5EF734214EE84A8003B7BA5 /* MonacaTabBarController+Bottom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MonacaTabBarController+Bottom.h"; sourceTree = "<group>"; };
+		F5EF734314EE84A8003B7BA5 /* MonacaTabBarController+Bottom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MonacaTabBarController+Bottom.m"; sourceTree = "<group>"; };
+		F5EF734B14EE8AA1003B7BA5 /* MonacaTabBarController+Top.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MonacaTabBarController+Top.h"; sourceTree = "<group>"; };
+		F5EF734C14EE8AA1003B7BA5 /* MonacaTabBarController+Top.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MonacaTabBarController+Top.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E4F516315A05BF10054EB23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E4F516415A05BF10054EB23 /* CoreMedia.framework in Frameworks */,
+				3E4F516515A05BF10054EB23 /* Foundation.framework in Frameworks */,
+				3E4F516615A05BF10054EB23 /* UIKit.framework in Frameworks */,
+				3E4F516715A05BF10054EB23 /* CoreGraphics.framework in Frameworks */,
+				3E4F516815A05BF10054EB23 /* AddressBook.framework in Frameworks */,
+				3E4F516915A05BF10054EB23 /* AddressBookUI.framework in Frameworks */,
+				3E4F516A15A05BF10054EB23 /* AVFoundation.framework in Frameworks */,
+				3E4F516B15A05BF10054EB23 /* CoreLocation.framework in Frameworks */,
+				3E4F516C15A05BF10054EB23 /* MediaPlayer.framework in Frameworks */,
+				3E4F516D15A05BF10054EB23 /* MobileCoreServices.framework in Frameworks */,
+				3E4F516E15A05BF10054EB23 /* QuartzCore.framework in Frameworks */,
+				3E4F516F15A05BF10054EB23 /* SystemConfiguration.framework in Frameworks */,
+				3E4F517015A05BF10054EB23 /* AudioToolbox.framework in Frameworks */,
+				3E5803A715A8649D00148FE4 /* CrossPlatformTemplaterForAppIOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E7FD2B0159D8F2300E85C81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E7FD2FB159D926600E85C81 /* CoreMedia.framework in Frameworks */,
+				3E7FD2FA159D926000E85C81 /* MobileCoreServices.framework in Frameworks */,
+				3E7FD2F9159D925900E85C81 /* SystemConfiguration.framework in Frameworks */,
+				3E7FD2F8159D925400E85C81 /* QuartzCore.framework in Frameworks */,
+				3E7FD2F7159D924E00E85C81 /* MediaPlayer.framework in Frameworks */,
+				3E7FD2F6159D924600E85C81 /* CoreLocation.framework in Frameworks */,
+				3E7FD2F5159D924000E85C81 /* AVFoundation.framework in Frameworks */,
+				3E7FD2F4159D923B00E85C81 /* AudioToolbox.framework in Frameworks */,
+				3E7FD2F3159D923600E85C81 /* AddressBookUI.framework in Frameworks */,
+				3E7FD2F2159D923300E85C81 /* AddressBook.framework in Frameworks */,
+				3E7FD2B7159D8F2300E85C81 /* CoreGraphics.framework in Frameworks */,
+				3E7FD2B5159D8F2300E85C81 /* UIKit.framework in Frameworks */,
+				3E7FD2B6159D8F2300E85C81 /* Foundation.framework in Frameworks */,
+				3E6E35F515D7DA900000D18E /* CrossPlatformTemplaterForAppSimulator.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50460A213B361730050803F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F57E523413D2E8DE00074B18 /* CoreMedia.framework in Frameworks */,
+				F504612313B364C60050803F /* Foundation.framework in Frameworks */,
+				F504612513B364C60050803F /* UIKit.framework in Frameworks */,
+				F504612713B364C60050803F /* CoreGraphics.framework in Frameworks */,
+				F504612913B364C60050803F /* AddressBook.framework in Frameworks */,
+				F504612B13B364C60050803F /* AddressBookUI.framework in Frameworks */,
+				F504612D13B364C60050803F /* AVFoundation.framework in Frameworks */,
+				F504613113B364C60050803F /* CoreLocation.framework in Frameworks */,
+				F504613313B364C60050803F /* MediaPlayer.framework in Frameworks */,
+				F504613513B364C60050803F /* MobileCoreServices.framework in Frameworks */,
+				F504613713B364C60050803F /* QuartzCore.framework in Frameworks */,
+				F504613913B364C60050803F /* SystemConfiguration.framework in Frameworks */,
+				F504613B13B364C60050803F /* AudioToolbox.framework in Frameworks */,
+				3ECF1BE115A0796A00B9511E /* CrossPlatformTemplaterForDebuggerIOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E0F08FC15A81D000025EFC2 /* PGPlugins */ = {
+			isa = PBXGroup;
+			children = (
+				3E0F08FD15A81D000025EFC2 /* MFPGNativeComponent.h */,
+				3E0F08FE15A81D000025EFC2 /* MFPGNativeComponent.m */,
+			);
+			path = PGPlugins;
+			sourceTree = "<group>";
+		};
+		3E4F50FC15A040DE0054EB23 /* Transit */ = {
+			isa = PBXGroup;
+			children = (
+				3E4F50FD15A040DE0054EB23 /* MonacaTransitPlugin.h */,
+				3E4F50FE15A040DE0054EB23 /* MonacaTransitPlugin.m */,
+			);
+			path = Transit;
+			sourceTree = "<group>";
+		};
+		3E7FD2B8159D8F2400E85C81 /* MonacaViewTest */ = {
+			isa = PBXGroup;
+			children = (
+				3E7FD2B9159D8F2400E85C81 /* Supporting Files */,
+			);
+			path = MonacaViewTest;
+			sourceTree = "<group>";
+		};
+		3E7FD2B9159D8F2400E85C81 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E6A9A2F15DFB215004D530D /* InfoPlist.strings */,
+				3E6A9A2A15DFB1CE004D530D /* Localizable.strings */,
+				3ED315E615DFA837008B7E1C /* 404 */,
+				3E7FD345159ED11A00E85C81 /* www */,
+				3E7FD328159EA92F00E85C81 /* Cordova.plist */,
+				3E7FD2BA159D8F2400E85C81 /* MonacaViewTest-Info.plist */,
+				3E7FD2BE159D8F2400E85C81 /* main.m */,
+				3E7FD2C0159D8F2400E85C81 /* MonacaViewTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3EBDBDBB15D2451A00E3E951 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3E8FB61315D6354D0036993C /* VERSION */,
+				3EBDBDBC15D2451A00E3E951 /* CDV.h */,
+				3EBDBDBD15D2451A00E3E951 /* CDVAccelerometer.h */,
+				3EBDBDBE15D2451A00E3E951 /* CDVAccelerometer.m */,
+				3EBDBDBF15D2451A00E3E951 /* CDVAvailability.h */,
+				3EBDBDC015D2451A00E3E951 /* CDVBattery.h */,
+				3EBDBDC115D2451A00E3E951 /* CDVBattery.m */,
+				3EBDBDC215D2451A00E3E951 /* CDVCamera.h */,
+				3EBDBDC315D2451A00E3E951 /* CDVCamera.m */,
+				3EBDBDC415D2451A00E3E951 /* CDVCapture.h */,
+				3EBDBDC515D2451A00E3E951 /* CDVCapture.m */,
+				3EBDBDC615D2451A00E3E951 /* CDVCommandDelegate.h */,
+				3EBDBDC715D2451A00E3E951 /* CDVConnection.h */,
+				3EBDBDC815D2451A00E3E951 /* CDVConnection.m */,
+				3EBDBDC915D2451A00E3E951 /* CDVContact.h */,
+				3EBDBDCA15D2451A00E3E951 /* CDVContact.m */,
+				3EBDBDCB15D2451A00E3E951 /* CDVContacts.h */,
+				3EBDBDCC15D2451A00E3E951 /* CDVContacts.m */,
+				3EBDBDCD15D2451A00E3E951 /* CDVCordovaView.h */,
+				3EBDBDCE15D2451A00E3E951 /* CDVCordovaView.m */,
+				3EBDBDCF15D2451A00E3E951 /* CDVDebug.h */,
+				3EBDBDD015D2451A00E3E951 /* CDVDebugConsole.h */,
+				3EBDBDD115D2451A00E3E951 /* CDVDebugConsole.m */,
+				3EBDBDD215D2451A00E3E951 /* CDVDevice.h */,
+				3EBDBDD315D2451A00E3E951 /* CDVDevice.m */,
+				3EBDBDD415D2451A00E3E951 /* CDVFile.h */,
+				3EBDBDD515D2451A00E3E951 /* CDVFile.m */,
+				3EBDBDD615D2451A00E3E951 /* CDVFileTransfer.h */,
+				3EBDBDD715D2451A00E3E951 /* CDVFileTransfer.m */,
+				3EBDBDD815D2451A00E3E951 /* CDVInvokedUrlCommand.h */,
+				3EBDBDD915D2451A00E3E951 /* CDVInvokedUrlCommand.m */,
+				3EBDBDDA15D2451A00E3E951 /* CDVLocalStorage.h */,
+				3EBDBDDB15D2451A00E3E951 /* CDVLocalStorage.m */,
+				3EBDBDDC15D2451A00E3E951 /* CDVLocation.h */,
+				3EBDBDDD15D2451A00E3E951 /* CDVLocation.m */,
+				3EBDBDDE15D2451A00E3E951 /* CDVLogger.h */,
+				3EBDBDDF15D2451A00E3E951 /* CDVLogger.m */,
+				3EBDBDE015D2451A00E3E951 /* CDVMotion.h */,
+				3EBDBDE115D2451A00E3E951 /* CDVMotion.m */,
+				3EBDBDE215D2451A00E3E951 /* CDVNotification.h */,
+				3EBDBDE315D2451A00E3E951 /* CDVNotification.m */,
+				3EBDBDE415D2451A00E3E951 /* CDVPlugin.h */,
+				3EBDBDE515D2451A00E3E951 /* CDVPlugin.m */,
+				3EBDBDE615D2451A00E3E951 /* CDVPluginResult.h */,
+				3EBDBDE715D2451A00E3E951 /* CDVPluginResult.m */,
+				3EBDBDE815D2451A00E3E951 /* CDVReachability.h */,
+				3EBDBDE915D2451A00E3E951 /* CDVReachability.m */,
+				3EBDBDEA15D2451A00E3E951 /* CDVSound.h */,
+				3EBDBDEB15D2451A00E3E951 /* CDVSound.m */,
+				3EBDBDEC15D2451A00E3E951 /* CDVSplashScreen.h */,
+				3EBDBDED15D2451A00E3E951 /* CDVSplashScreen.m */,
+				3EBDBDEE15D2451A00E3E951 /* CDVURLProtocol.h */,
+				3EBDBDEF15D2451A00E3E951 /* CDVURLProtocol.m */,
+				3EBDBDF015D2451A00E3E951 /* CDVViewController.h */,
+				3EBDBDF115D2451A00E3E951 /* CDVViewController.m */,
+				3EBDBDF215D2451A00E3E951 /* CDVWhitelist.h */,
+				3EBDBDF315D2451A00E3E951 /* CDVWhitelist.m */,
+				3EBDBE0115D2451A00E3E951 /* deprecated */,
+				3EBDBE0415D2451A00E3E951 /* JSON */,
+				3EBDBE0715D2451A00E3E951 /* NSArray+Comparisons.h */,
+				3EBDBE0815D2451A00E3E951 /* NSArray+Comparisons.m */,
+				3EBDBE0915D2451A00E3E951 /* NSData+Base64.h */,
+				3EBDBE0A15D2451A00E3E951 /* NSData+Base64.m */,
+				3EBDBE0B15D2451A00E3E951 /* NSDictionary+Extensions.h */,
+				3EBDBE0C15D2451A00E3E951 /* NSDictionary+Extensions.m */,
+				3EBDBE0D15D2451A00E3E951 /* NSMutableArray+QueueAdditions.h */,
+				3EBDBE0E15D2451A00E3E951 /* NSMutableArray+QueueAdditions.m */,
+				3EBDBE0F15D2451A00E3E951 /* UIDevice+Extensions.h */,
+				3EBDBE1015D2451A00E3E951 /* UIDevice+Extensions.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3EBDBE0115D2451A00E3E951 /* deprecated */ = {
+			isa = PBXGroup;
+			children = (
+				3EBDBE0215D2451A00E3E951 /* CDVDeprecated.h */,
+				3EBDBE0315D2451A00E3E951 /* CDVDeprecated.m */,
+			);
+			path = deprecated;
+			sourceTree = "<group>";
+		};
+		3EBDBE0415D2451A00E3E951 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				3EBDBE0515D2451A00E3E951 /* JSONKit.h */,
+				3EBDBE0615D2451A00E3E951 /* JSONKit.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		F503A593146BE13800764D05 /* NativeComponents */ = {
+			isa = PBXGroup;
+			children = (
+				D44C9E291592ED86006372F3 /* NCButton.h */,
+				D44C9E2A1592ED86006372F3 /* NCButton.m */,
+				D44C9E2B1592ED86006372F3 /* NCSearchBar.h */,
+				D44C9E2C1592ED86006372F3 /* NCSearchBar.m */,
+				F5E0F7C71506116900DC7988 /* NativeComponents.h */,
+				F5E0F7C81506116900DC7988 /* NativeComponentsInternal.h */,
+				F5E0F7C91506116900DC7988 /* NCBackButtonBuilder.h */,
+				F5E0F7CA1506116900DC7988 /* NCBackButtonBuilder.m */,
+				F5E0F7CB1506116900DC7988 /* NCButtonBuilder.h */,
+				F5E0F7CC1506116900DC7988 /* NCButtonBuilder.m */,
+				F5E0F7CD1506116900DC7988 /* NCContainer.h */,
+				F5E0F7CE1506116900DC7988 /* NCContainer.m */,
+				F5E0F7CF1506116900DC7988 /* NCLabelBuilder.h */,
+				F5E0F7D01506116900DC7988 /* NCLabelBuilder.m */,
+				F5E0F7D11506116900DC7988 /* NCManager.h */,
+				F5E0F7D21506116900DC7988 /* NCManager.m */,
+				F5E0F7D31506116900DC7988 /* NCSearchBoxBuilder.h */,
+				F5E0F7D41506116900DC7988 /* NCSearchBoxBuilder.m */,
+				F5E0F7D51506116900DC7988 /* NCSegmentBuilder.h */,
+				F5E0F7D61506116900DC7988 /* NCSegmentBuilder.m */,
+				F5E0F7D71506116900DC7988 /* NCTabbarItemBuilder.h */,
+				F5E0F7D81506116900DC7988 /* NCTabbarItemBuilder.m */,
+				F5E0F7D91506116900DC7988 /* NCTitleView.h */,
+				F5E0F7DA1506116900DC7988 /* NCTitleView.m */,
+				F5E0F7DB1506116900DC7988 /* NCToolbar.h */,
+				F5E0F7DC1506116900DC7988 /* NCToolbar.m */,
+				F5E0F7DD1506116900DC7988 /* UILabel+Resize.h */,
+				F5E0F7DE1506116900DC7988 /* UILabel+Resize.m */,
+			);
+			path = NativeComponents;
+			sourceTree = "<group>";
+		};
+		F504609A13B361720050803F = {
+			isa = PBXGroup;
+			children = (
+				F50460AA13B361730050803F /* MonacaFramework */,
+				3E7FD2B8159D8F2400E85C81 /* MonacaViewTest */,
+				F50460A713B361730050803F /* Frameworks */,
+				F50460A613B361730050803F /* Products */,
+				F5955CF714A31F8B00E488FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F50460A613B361730050803F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F50460A513B361730050803F /* libMonacaFrameworkForDebugger.a */,
+				3E7FD2B3159D8F2300E85C81 /* MonacaViewTest.app */,
+				3E4F51BC15A05BF10054EB23 /* libMonacaFrameworkForApp.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F50460A713B361730050803F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F57E523313D2E8DE00074B18 /* CoreMedia.framework */,
+				F504611413B364C60050803F /* Foundation.framework */,
+				F504611513B364C60050803F /* UIKit.framework */,
+				F504611613B364C60050803F /* CoreGraphics.framework */,
+				F504611713B364C60050803F /* AddressBook.framework */,
+				F504611813B364C60050803F /* AddressBookUI.framework */,
+				F504611913B364C60050803F /* AVFoundation.framework */,
+				F504611B13B364C60050803F /* CoreLocation.framework */,
+				F504611C13B364C60050803F /* MediaPlayer.framework */,
+				F504611D13B364C60050803F /* MobileCoreServices.framework */,
+				F504611E13B364C60050803F /* QuartzCore.framework */,
+				F504611F13B364C60050803F /* SystemConfiguration.framework */,
+				F504612013B364C60050803F /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F50460AA13B361730050803F /* MonacaFramework */ = {
+			isa = PBXGroup;
+			children = (
+				3E4F510215A0419E0054EB23 /* MonacaNavigationController.h */,
+				3E4F510315A0419E0054EB23 /* MonacaNavigationController.m */,
+				3E7FD31E159EA3ED00E85C81 /* MonacaURLProtocol.h */,
+				3E7FD31F159EA3EE00E85C81 /* MonacaURLProtocol.m */,
+				F50460CE13B361BE0050803F /* Headers */,
+				F5F31BDD14820C7800C40C0B /* Library */,
+				F5921FB3146B80690025DED5 /* Views */,
+				F50460DA13B3633B0050803F /* MonacaViewController.m */,
+				F50460D813B3633B0050803F /* MonacaDelegate.m */,
+				F50460DF13B3633B0050803F /* Utility.h */,
+				F50460E013B3633B0050803F /* Utility.m */,
+				F54FBB3D14BBE04000F702D9 /* Device.h */,
+				F54FBB3E14BBE04100F702D9 /* Device.m */,
+				F50460AB13B361730050803F /* Supporting Files */,
+				3EEB4FB215E23F6A00FE5E83 /* MonacaURLCache.h */,
+				3EEB4FB315E23F6A00FE5E83 /* MonacaURLCache.m */,
+			);
+			path = MonacaFramework;
+			sourceTree = "<group>";
+		};
+		F50460AB13B361730050803F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F50460AC13B361730050803F /* MonacaFramework-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F50460CE13B361BE0050803F /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				F57E51BC13D2CCC200074B18 /* MonacaDelegate.h */,
+				F57E51BD13D2CCC200074B18 /* MonacaViewController.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		F54CEB541500D1A000516444 /* Monaca */ = {
+			isa = PBXGroup;
+			children = (
+				3E0F08FC15A81D000025EFC2 /* PGPlugins */,
+				3E4F50FC15A040DE0054EB23 /* Transit */,
+				F54CEB551500D1A000516444 /* TemplateEngine */,
+			);
+			path = Monaca;
+			sourceTree = "<group>";
+		};
+		F54CEB551500D1A000516444 /* TemplateEngine */ = {
+			isa = PBXGroup;
+			children = (
+				3E4F51BE15A05C8A0054EB23 /* CrossPlatformTemplaterForAppIOS.a */,
+				F5E0F7F71506117E00DC7988 /* CrossPlatformTemplaterForAppSimulator.a */,
+				3E4F51BF15A05C8A0054EB23 /* CrossPlatformTemplaterForDebuggerIOS.a */,
+				3E4F51C015A05C8A0054EB23 /* CrossPlatformTemplaterForDebuggerSimulator.a */,
+				F5E0F7F81506117E00DC7988 /* MonacaTemplateEngine.h */,
+			);
+			path = TemplateEngine;
+			sourceTree = "<group>";
+		};
+		F54CEB581500D1A000516444 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				3EBDBDBB15D2451A00E3E951 /* Classes */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		F5921FB3146B80690025DED5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F503A593146BE13800764D05 /* NativeComponents */,
+				F5921FB6146B80F00025DED5 /* MonacaTabBarController.m */,
+				F5921FB5146B80F00025DED5 /* MonacaTabBarController.h */,
+				F5EF734214EE84A8003B7BA5 /* MonacaTabBarController+Bottom.h */,
+				F5EF734314EE84A8003B7BA5 /* MonacaTabBarController+Bottom.m */,
+				F5EF734B14EE8AA1003B7BA5 /* MonacaTabBarController+Top.h */,
+				F5EF734C14EE8AA1003B7BA5 /* MonacaTabBarController+Top.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F5F31BDD14820C7800C40C0B /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				F54CEB541500D1A000516444 /* Monaca */,
+				F54CEB581500D1A000516444 /* Vendor */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3E4F517315A05BF10054EB23 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E4F517415A05BF10054EB23 /* Utility.h in Headers */,
+				3E4F517515A05BF10054EB23 /* MonacaDelegate.h in Headers */,
+				3E4F517615A05BF10054EB23 /* MonacaViewController.h in Headers */,
+				3E4F517715A05BF10054EB23 /* MonacaTabBarController.h in Headers */,
+				3E4F517815A05BF10054EB23 /* Device.h in Headers */,
+				3E4F517915A05BF10054EB23 /* MonacaTabBarController+Bottom.h in Headers */,
+				3E4F517A15A05BF10054EB23 /* MonacaTabBarController+Top.h in Headers */,
+				3E4F517B15A05BF10054EB23 /* NativeComponents.h in Headers */,
+				3E4F517C15A05BF10054EB23 /* NativeComponentsInternal.h in Headers */,
+				3E4F517D15A05BF10054EB23 /* NCBackButtonBuilder.h in Headers */,
+				3E4F517E15A05BF10054EB23 /* NCButtonBuilder.h in Headers */,
+				3E4F517F15A05BF10054EB23 /* NCContainer.h in Headers */,
+				3E4F518015A05BF10054EB23 /* NCLabelBuilder.h in Headers */,
+				3E4F518115A05BF10054EB23 /* NCManager.h in Headers */,
+				3E4F518215A05BF10054EB23 /* NCSearchBoxBuilder.h in Headers */,
+				3E4F518315A05BF10054EB23 /* NCSegmentBuilder.h in Headers */,
+				3E4F518415A05BF10054EB23 /* NCTabbarItemBuilder.h in Headers */,
+				3E4F518515A05BF10054EB23 /* NCTitleView.h in Headers */,
+				3E4F518615A05BF10054EB23 /* NCToolbar.h in Headers */,
+				3E4F518715A05BF10054EB23 /* UILabel+Resize.h in Headers */,
+				3E4F518815A05BF10054EB23 /* MonacaTemplateEngine.h in Headers */,
+				3E4F51B315A05BF10054EB23 /* NCButton.h in Headers */,
+				3E4F51B415A05BF10054EB23 /* NCSearchBar.h in Headers */,
+				3E4F51B515A05BF10054EB23 /* MonacaURLProtocol.h in Headers */,
+				3E4F51B615A05BF10054EB23 /* MonacaTransitPlugin.h in Headers */,
+				3E4F51B715A05BF10054EB23 /* MonacaNavigationController.h in Headers */,
+				3E0F090015A81D000025EFC2 /* MFPGNativeComponent.h in Headers */,
+				3EBDBE1215D2451A00E3E951 /* CDV.h in Headers */,
+				3EBDBE1415D2451A00E3E951 /* CDVAccelerometer.h in Headers */,
+				3EBDBE1915D2451A00E3E951 /* CDVAvailability.h in Headers */,
+				3EBDBE1B15D2451A00E3E951 /* CDVBattery.h in Headers */,
+				3EBDBE2015D2451A00E3E951 /* CDVCamera.h in Headers */,
+				3EBDBE2515D2451A00E3E951 /* CDVCapture.h in Headers */,
+				3EBDBE2A15D2451A00E3E951 /* CDVCommandDelegate.h in Headers */,
+				3EBDBE2C15D2451A00E3E951 /* CDVConnection.h in Headers */,
+				3EBDBE3115D2451A00E3E951 /* CDVContact.h in Headers */,
+				3EBDBE3615D2451A00E3E951 /* CDVContacts.h in Headers */,
+				3EBDBE3B15D2451A00E3E951 /* CDVCordovaView.h in Headers */,
+				3EBDBE4015D2451A00E3E951 /* CDVDebug.h in Headers */,
+				3EBDBE4215D2451A00E3E951 /* CDVDebugConsole.h in Headers */,
+				3EBDBE4715D2451A00E3E951 /* CDVDevice.h in Headers */,
+				3EBDBE4C15D2451A00E3E951 /* CDVFile.h in Headers */,
+				3EBDBE5115D2451A00E3E951 /* CDVFileTransfer.h in Headers */,
+				3EBDBE5615D2451A00E3E951 /* CDVInvokedUrlCommand.h in Headers */,
+				3EBDBE5B15D2451A00E3E951 /* CDVLocalStorage.h in Headers */,
+				3EBDBE6015D2451A00E3E951 /* CDVLocation.h in Headers */,
+				3EBDBE6515D2451A00E3E951 /* CDVLogger.h in Headers */,
+				3EBDBE6A15D2451A00E3E951 /* CDVMotion.h in Headers */,
+				3EBDBE6F15D2451A00E3E951 /* CDVNotification.h in Headers */,
+				3EBDBE7415D2451A00E3E951 /* CDVPlugin.h in Headers */,
+				3EBDBE7915D2451A00E3E951 /* CDVPluginResult.h in Headers */,
+				3EBDBE7E15D2451A00E3E951 /* CDVReachability.h in Headers */,
+				3EBDBE8315D2451A00E3E951 /* CDVSound.h in Headers */,
+				3EBDBE8815D2451A00E3E951 /* CDVSplashScreen.h in Headers */,
+				3EBDBE8D15D2451A00E3E951 /* CDVURLProtocol.h in Headers */,
+				3EBDBE9215D2451A00E3E951 /* CDVViewController.h in Headers */,
+				3EBDBE9715D2451A00E3E951 /* CDVWhitelist.h in Headers */,
+				3EBDBEAF15D2451A00E3E951 /* CDVDeprecated.h in Headers */,
+				3EBDBEB415D2451A00E3E951 /* JSONKit.h in Headers */,
+				3EBDBEB915D2451A00E3E951 /* NSArray+Comparisons.h in Headers */,
+				3EBDBEBE15D2451A00E3E951 /* NSData+Base64.h in Headers */,
+				3EBDBEC315D2451A00E3E951 /* NSDictionary+Extensions.h in Headers */,
+				3EBDBEC815D2451A00E3E951 /* NSMutableArray+QueueAdditions.h in Headers */,
+				3EBDBECD15D2451A00E3E951 /* UIDevice+Extensions.h in Headers */,
+				3EEB4FB915E2407A00FE5E83 /* MonacaURLCache.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50460A313B361730050803F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50460ED13B3633B0050803F /* Utility.h in Headers */,
+				F57E51BE13D2CCC200074B18 /* MonacaDelegate.h in Headers */,
+				F57E51BF13D2CCC200074B18 /* MonacaViewController.h in Headers */,
+				F5921FB7146B80F00025DED5 /* MonacaTabBarController.h in Headers */,
+				F54FBB3F14BBE04100F702D9 /* Device.h in Headers */,
+				F5EF734414EE84A8003B7BA5 /* MonacaTabBarController+Bottom.h in Headers */,
+				F5EF734D14EE8AA2003B7BA5 /* MonacaTabBarController+Top.h in Headers */,
+				F5E0F7DF1506116900DC7988 /* NativeComponents.h in Headers */,
+				F5E0F7E01506116900DC7988 /* NativeComponentsInternal.h in Headers */,
+				F5E0F7E11506116900DC7988 /* NCBackButtonBuilder.h in Headers */,
+				F5E0F7E31506116900DC7988 /* NCButtonBuilder.h in Headers */,
+				F5E0F7E51506116900DC7988 /* NCContainer.h in Headers */,
+				F5E0F7E71506116900DC7988 /* NCLabelBuilder.h in Headers */,
+				F5E0F7E91506116900DC7988 /* NCManager.h in Headers */,
+				F5E0F7EB1506116900DC7988 /* NCSearchBoxBuilder.h in Headers */,
+				F5E0F7ED1506116900DC7988 /* NCSegmentBuilder.h in Headers */,
+				F5E0F7EF1506116900DC7988 /* NCTabbarItemBuilder.h in Headers */,
+				F5E0F7F11506116900DC7988 /* NCTitleView.h in Headers */,
+				F5E0F7F31506116900DC7988 /* NCToolbar.h in Headers */,
+				F5E0F7F51506116900DC7988 /* UILabel+Resize.h in Headers */,
+				F5E0F7FA1506117E00DC7988 /* MonacaTemplateEngine.h in Headers */,
+				D44C9E2D1592ED86006372F3 /* NCButton.h in Headers */,
+				D44C9E2F1592ED86006372F3 /* NCSearchBar.h in Headers */,
+				3E7FD320159EA3EF00E85C81 /* MonacaURLProtocol.h in Headers */,
+				3E4F50FF15A040DE0054EB23 /* MonacaTransitPlugin.h in Headers */,
+				3E4F510415A0419E0054EB23 /* MonacaNavigationController.h in Headers */,
+				3E0F08FF15A81D000025EFC2 /* MFPGNativeComponent.h in Headers */,
+				3EBDBE1115D2451A00E3E951 /* CDV.h in Headers */,
+				3EBDBE1315D2451A00E3E951 /* CDVAccelerometer.h in Headers */,
+				3EBDBE1815D2451A00E3E951 /* CDVAvailability.h in Headers */,
+				3EBDBE1A15D2451A00E3E951 /* CDVBattery.h in Headers */,
+				3EBDBE1F15D2451A00E3E951 /* CDVCamera.h in Headers */,
+				3EBDBE2415D2451A00E3E951 /* CDVCapture.h in Headers */,
+				3EBDBE2915D2451A00E3E951 /* CDVCommandDelegate.h in Headers */,
+				3EBDBE2B15D2451A00E3E951 /* CDVConnection.h in Headers */,
+				3EBDBE3015D2451A00E3E951 /* CDVContact.h in Headers */,
+				3EBDBE3515D2451A00E3E951 /* CDVContacts.h in Headers */,
+				3EBDBE3A15D2451A00E3E951 /* CDVCordovaView.h in Headers */,
+				3EBDBE3F15D2451A00E3E951 /* CDVDebug.h in Headers */,
+				3EBDBE4115D2451A00E3E951 /* CDVDebugConsole.h in Headers */,
+				3EBDBE4615D2451A00E3E951 /* CDVDevice.h in Headers */,
+				3EBDBE4B15D2451A00E3E951 /* CDVFile.h in Headers */,
+				3EBDBE5015D2451A00E3E951 /* CDVFileTransfer.h in Headers */,
+				3EBDBE5515D2451A00E3E951 /* CDVInvokedUrlCommand.h in Headers */,
+				3EBDBE5A15D2451A00E3E951 /* CDVLocalStorage.h in Headers */,
+				3EBDBE5F15D2451A00E3E951 /* CDVLocation.h in Headers */,
+				3EBDBE6415D2451A00E3E951 /* CDVLogger.h in Headers */,
+				3EBDBE6915D2451A00E3E951 /* CDVMotion.h in Headers */,
+				3EBDBE6E15D2451A00E3E951 /* CDVNotification.h in Headers */,
+				3EBDBE7315D2451A00E3E951 /* CDVPlugin.h in Headers */,
+				3EBDBE7815D2451A00E3E951 /* CDVPluginResult.h in Headers */,
+				3EBDBE7D15D2451A00E3E951 /* CDVReachability.h in Headers */,
+				3EBDBE8215D2451A00E3E951 /* CDVSound.h in Headers */,
+				3EBDBE8715D2451A00E3E951 /* CDVSplashScreen.h in Headers */,
+				3EBDBE8C15D2451A00E3E951 /* CDVURLProtocol.h in Headers */,
+				3EBDBE9115D2451A00E3E951 /* CDVViewController.h in Headers */,
+				3EBDBE9615D2451A00E3E951 /* CDVWhitelist.h in Headers */,
+				3EBDBEAE15D2451A00E3E951 /* CDVDeprecated.h in Headers */,
+				3EBDBEB315D2451A00E3E951 /* JSONKit.h in Headers */,
+				3EBDBEB815D2451A00E3E951 /* NSArray+Comparisons.h in Headers */,
+				3EBDBEBD15D2451A00E3E951 /* NSData+Base64.h in Headers */,
+				3EBDBEC215D2451A00E3E951 /* NSDictionary+Extensions.h in Headers */,
+				3EBDBEC715D2451A00E3E951 /* NSMutableArray+QueueAdditions.h in Headers */,
+				3EBDBECC15D2451A00E3E951 /* UIDevice+Extensions.h in Headers */,
+				3EEB4FB415E23F6A00FE5E83 /* MonacaURLCache.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3E4F513D15A05BF10054EB23 /* MonacaFrameworkForApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E4F51B915A05BF10054EB23 /* Build configuration list for PBXNativeTarget "MonacaFrameworkForApp" */;
+			buildPhases = (
+				3E4F513E15A05BF10054EB23 /* Sources */,
+				3E4F516315A05BF10054EB23 /* Frameworks */,
+				3E4F517315A05BF10054EB23 /* Headers */,
+				3E4F51B815A05BF10054EB23 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonacaFrameworkForApp;
+			productName = MonacaFramework;
+			productReference = 3E4F51BC15A05BF10054EB23 /* libMonacaFrameworkForApp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3E7FD2B2159D8F2300E85C81 /* MonacaViewTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E7FD2CD159D8F2400E85C81 /* Build configuration list for PBXNativeTarget "MonacaViewTest" */;
+			buildPhases = (
+				3E7FD2AF159D8F2300E85C81 /* Sources */,
+				3E7FD2B0159D8F2300E85C81 /* Frameworks */,
+				3E7FD2B1159D8F2300E85C81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonacaViewTest;
+			productName = MonacaViewTest;
+			productReference = 3E7FD2B3159D8F2300E85C81 /* MonacaViewTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F50460A413B361730050803F /* MonacaFrameworkForDebugger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F50460C813B361730050803F /* Build configuration list for PBXNativeTarget "MonacaFrameworkForDebugger" */;
+			buildPhases = (
+				F50460A113B361730050803F /* Sources */,
+				F50460A213B361730050803F /* Frameworks */,
+				F50460A313B361730050803F /* Headers */,
+				F50460F013B363BC0050803F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonacaFrameworkForDebugger;
+			productName = MonacaFramework;
+			productReference = F50460A513B361730050803F /* libMonacaFrameworkForDebugger.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F504609C13B361720050803F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "ASIAL CORPORATION";
+			};
+			buildConfigurationList = F504609F13B361720050803F /* Build configuration list for PBXProject "MonacaFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ja,
+			);
+			mainGroup = F504609A13B361720050803F;
+			productRefGroup = F50460A613B361730050803F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F50460A413B361730050803F /* MonacaFrameworkForDebugger */,
+				3E4F513D15A05BF10054EB23 /* MonacaFrameworkForApp */,
+				F5FB382914851B2C00DD6C7A /* MonacaFramework-Universal */,
+				3E7FD2B2159D8F2300E85C81 /* MonacaViewTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E7FD2B1159D8F2300E85C81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E7FD329159EA92F00E85C81 /* Cordova.plist in Resources */,
+				3E7FD346159ED12400E85C81 /* www in Resources */,
+				3E8FB61415D6354D0036993C /* VERSION in Resources */,
+				3ED315E715DFA837008B7E1C /* 404 in Resources */,
+				3E6A9A2C15DFB1CE004D530D /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E4F51B815A05BF10054EB23 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+		F50460F013B363BC0050803F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+		F5FB382E14851B7D00DD6C7A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Clean build for Simulator.\nxcodebuild -project ${PROJECT_NAME}.xcodeproj -sdk iphonesimulator${IPHONES_DEPLOYMENT_TARGET} -target ${PRODUCT_NAME} OBJROOT=${OBJROOT} SYMROOT=${SYMROOT} -configuration ${CONFIGURATION} -arch i386 clean build\n\n# Clean build for Device.\nxcodebuild -project ${PROJECT_NAME}.xcodeproj -sdk iphoneos${IPHONES_DEPLOYMENT_TARGET} -target ${PRODUCT_NAME} OBJROOT=${OBJROOT} SYMROOT=${SYMROOT} -configuration ${CONFIGURATION} clean build\n\nmkdir -p ${PROJECT_NAME}/Products/${CONFIGURATION}-universal\n\nlipo ${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${PRODUCT_NAME}.a ${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${PRODUCT_NAME}.a -create -output ${PROJECT_NAME}/Products/${CONFIGURATION}-universal/lib${PRODUCT_NAME}.a";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E4F513E15A05BF10054EB23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E4F513F15A05BF10054EB23 /* MonacaDelegate.m in Sources */,
+				3E4F514015A05BF10054EB23 /* MonacaViewController.m in Sources */,
+				3E4F514115A05BF10054EB23 /* Utility.m in Sources */,
+				3E4F514215A05BF10054EB23 /* MonacaTabBarController.m in Sources */,
+				3E4F514315A05BF10054EB23 /* Device.m in Sources */,
+				3E4F514415A05BF10054EB23 /* MonacaTabBarController+Bottom.m in Sources */,
+				3E4F514515A05BF10054EB23 /* MonacaTabBarController+Top.m in Sources */,
+				3E4F514615A05BF10054EB23 /* NCBackButtonBuilder.m in Sources */,
+				3E4F514715A05BF10054EB23 /* NCButtonBuilder.m in Sources */,
+				3E4F514815A05BF10054EB23 /* NCContainer.m in Sources */,
+				3E4F514915A05BF10054EB23 /* NCLabelBuilder.m in Sources */,
+				3E4F514A15A05BF10054EB23 /* NCManager.m in Sources */,
+				3E4F514B15A05BF10054EB23 /* NCSearchBoxBuilder.m in Sources */,
+				3E4F514C15A05BF10054EB23 /* NCSegmentBuilder.m in Sources */,
+				3E4F514D15A05BF10054EB23 /* NCTabbarItemBuilder.m in Sources */,
+				3E4F514E15A05BF10054EB23 /* NCTitleView.m in Sources */,
+				3E4F514F15A05BF10054EB23 /* NCToolbar.m in Sources */,
+				3E4F515015A05BF10054EB23 /* UILabel+Resize.m in Sources */,
+				3E4F515E15A05BF10054EB23 /* NCButton.m in Sources */,
+				3E4F515F15A05BF10054EB23 /* NCSearchBar.m in Sources */,
+				3E4F516015A05BF10054EB23 /* MonacaURLProtocol.m in Sources */,
+				3E4F516115A05BF10054EB23 /* MonacaTransitPlugin.m in Sources */,
+				3E4F516215A05BF10054EB23 /* MonacaNavigationController.m in Sources */,
+				3E0F090215A81D000025EFC2 /* MFPGNativeComponent.m in Sources */,
+				3EBDBE1615D2451A00E3E951 /* CDVAccelerometer.m in Sources */,
+				3EBDBE1D15D2451A00E3E951 /* CDVBattery.m in Sources */,
+				3EBDBE2215D2451A00E3E951 /* CDVCamera.m in Sources */,
+				3EBDBE2715D2451A00E3E951 /* CDVCapture.m in Sources */,
+				3EBDBE2E15D2451A00E3E951 /* CDVConnection.m in Sources */,
+				3EBDBE3315D2451A00E3E951 /* CDVContact.m in Sources */,
+				3EBDBE3815D2451A00E3E951 /* CDVContacts.m in Sources */,
+				3EBDBE3D15D2451A00E3E951 /* CDVCordovaView.m in Sources */,
+				3EBDBE4415D2451A00E3E951 /* CDVDebugConsole.m in Sources */,
+				3EBDBE4915D2451A00E3E951 /* CDVDevice.m in Sources */,
+				3EBDBE4E15D2451A00E3E951 /* CDVFile.m in Sources */,
+				3EBDBE5315D2451A00E3E951 /* CDVFileTransfer.m in Sources */,
+				3EBDBE5815D2451A00E3E951 /* CDVInvokedUrlCommand.m in Sources */,
+				3EBDBE5D15D2451A00E3E951 /* CDVLocalStorage.m in Sources */,
+				3EBDBE6215D2451A00E3E951 /* CDVLocation.m in Sources */,
+				3EBDBE6715D2451A00E3E951 /* CDVLogger.m in Sources */,
+				3EBDBE6C15D2451A00E3E951 /* CDVMotion.m in Sources */,
+				3EBDBE7115D2451A00E3E951 /* CDVNotification.m in Sources */,
+				3EBDBE7615D2451A00E3E951 /* CDVPlugin.m in Sources */,
+				3EBDBE7B15D2451A00E3E951 /* CDVPluginResult.m in Sources */,
+				3EBDBE8015D2451A00E3E951 /* CDVReachability.m in Sources */,
+				3EBDBE8515D2451A00E3E951 /* CDVSound.m in Sources */,
+				3EBDBE8A15D2451A00E3E951 /* CDVSplashScreen.m in Sources */,
+				3EBDBE8F15D2451A00E3E951 /* CDVURLProtocol.m in Sources */,
+				3EBDBE9415D2451A00E3E951 /* CDVViewController.m in Sources */,
+				3EBDBE9915D2451A00E3E951 /* CDVWhitelist.m in Sources */,
+				3EBDBEB115D2451A00E3E951 /* CDVDeprecated.m in Sources */,
+				3EBDBEB615D2451A00E3E951 /* JSONKit.m in Sources */,
+				3EBDBEBB15D2451A00E3E951 /* NSArray+Comparisons.m in Sources */,
+				3EBDBEC015D2451A00E3E951 /* NSData+Base64.m in Sources */,
+				3EBDBEC515D2451A00E3E951 /* NSDictionary+Extensions.m in Sources */,
+				3EBDBECA15D2451A00E3E951 /* NSMutableArray+QueueAdditions.m in Sources */,
+				3EBDBECF15D2451A00E3E951 /* UIDevice+Extensions.m in Sources */,
+				3EEB4FB815E2407800FE5E83 /* MonacaURLCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E7FD2AF159D8F2300E85C81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E7FD2BF159D8F2400E85C81 /* main.m in Sources */,
+				3E7FD2EB159D914100E85C81 /* Device.m in Sources */,
+				3E7FD31C159EA27700E85C81 /* MonacaDelegate.m in Sources */,
+				3E7FD31D159EA29700E85C81 /* MonacaViewController.m in Sources */,
+				3E7FD322159EA3EF00E85C81 /* MonacaURLProtocol.m in Sources */,
+				3E7FD32A159ECB7000E85C81 /* MonacaTabBarController.m in Sources */,
+				3E7FD32B159ECB9B00E85C81 /* NCManager.m in Sources */,
+				3E7FD32C159ECBA400E85C81 /* NCContainer.m in Sources */,
+				3E7FD32D159ECBCD00E85C81 /* NCButtonBuilder.m in Sources */,
+				3E7FD32E159ECBE700E85C81 /* Utility.m in Sources */,
+				3E7FD32F159ECC0000E85C81 /* NCBackButtonBuilder.m in Sources */,
+				3E7FD330159ECC0900E85C81 /* NCLabelBuilder.m in Sources */,
+				3E7FD331159ECC1200E85C81 /* NCSearchBoxBuilder.m in Sources */,
+				3E7FD332159ECC1A00E85C81 /* NCSegmentBuilder.m in Sources */,
+				3E7FD333159ECC2100E85C81 /* NCButton.m in Sources */,
+				3E7FD334159ECC3000E85C81 /* NCSearchBar.m in Sources */,
+				3E7FD335159ECC5400E85C81 /* NCTabbarItemBuilder.m in Sources */,
+				3E7FD336159ECC5900E85C81 /* NCTitleView.m in Sources */,
+				3E7FD337159ECC5C00E85C81 /* NCToolbar.m in Sources */,
+				3E7FD338159ECC6300E85C81 /* UILabel+Resize.m in Sources */,
+				3E7FD33A159ECC8300E85C81 /* MonacaTabBarController+Top.m in Sources */,
+				3E4F510715A042E10054EB23 /* MonacaTransitPlugin.m in Sources */,
+				3E4F510815A042E50054EB23 /* MonacaNavigationController.m in Sources */,
+				3E4405DC15A137CD00BA0FF6 /* MonacaTabBarController+Bottom.m in Sources */,
+				3E0F090315A81D000025EFC2 /* MFPGNativeComponent.m in Sources */,
+				3EBDBE1715D2451A00E3E951 /* CDVAccelerometer.m in Sources */,
+				3EBDBE1E15D2451A00E3E951 /* CDVBattery.m in Sources */,
+				3EBDBE2315D2451A00E3E951 /* CDVCamera.m in Sources */,
+				3EBDBE2815D2451A00E3E951 /* CDVCapture.m in Sources */,
+				3EBDBE2F15D2451A00E3E951 /* CDVConnection.m in Sources */,
+				3EBDBE3415D2451A00E3E951 /* CDVContact.m in Sources */,
+				3EBDBE3915D2451A00E3E951 /* CDVContacts.m in Sources */,
+				3EBDBE3E15D2451A00E3E951 /* CDVCordovaView.m in Sources */,
+				3EBDBE4515D2451A00E3E951 /* CDVDebugConsole.m in Sources */,
+				3EBDBE4A15D2451A00E3E951 /* CDVDevice.m in Sources */,
+				3EBDBE4F15D2451A00E3E951 /* CDVFile.m in Sources */,
+				3EBDBE5415D2451A00E3E951 /* CDVFileTransfer.m in Sources */,
+				3EBDBE5915D2451A00E3E951 /* CDVInvokedUrlCommand.m in Sources */,
+				3EBDBE5E15D2451A00E3E951 /* CDVLocalStorage.m in Sources */,
+				3EBDBE6315D2451A00E3E951 /* CDVLocation.m in Sources */,
+				3EBDBE6815D2451A00E3E951 /* CDVLogger.m in Sources */,
+				3EBDBE6D15D2451A00E3E951 /* CDVMotion.m in Sources */,
+				3EBDBE7215D2451A00E3E951 /* CDVNotification.m in Sources */,
+				3EBDBE7715D2451A00E3E951 /* CDVPlugin.m in Sources */,
+				3EBDBE7C15D2451A00E3E951 /* CDVPluginResult.m in Sources */,
+				3EBDBE8115D2451A00E3E951 /* CDVReachability.m in Sources */,
+				3EBDBE8615D2451A00E3E951 /* CDVSound.m in Sources */,
+				3EBDBE8B15D2451A00E3E951 /* CDVSplashScreen.m in Sources */,
+				3EBDBE9015D2451A00E3E951 /* CDVURLProtocol.m in Sources */,
+				3EBDBE9515D2451A00E3E951 /* CDVViewController.m in Sources */,
+				3EBDBE9A15D2451A00E3E951 /* CDVWhitelist.m in Sources */,
+				3EBDBEB215D2451A00E3E951 /* CDVDeprecated.m in Sources */,
+				3EBDBEB715D2451A00E3E951 /* JSONKit.m in Sources */,
+				3EBDBEBC15D2451A00E3E951 /* NSArray+Comparisons.m in Sources */,
+				3EBDBEC115D2451A00E3E951 /* NSData+Base64.m in Sources */,
+				3EBDBEC615D2451A00E3E951 /* NSDictionary+Extensions.m in Sources */,
+				3EBDBECB15D2451A00E3E951 /* NSMutableArray+QueueAdditions.m in Sources */,
+				3EBDBED015D2451A00E3E951 /* UIDevice+Extensions.m in Sources */,
+				3EEB4FB715E2407600FE5E83 /* MonacaURLCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50460A113B361730050803F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50460E213B3633B0050803F /* MonacaDelegate.m in Sources */,
+				F50460E513B3633B0050803F /* MonacaViewController.m in Sources */,
+				F50460EE13B3633B0050803F /* Utility.m in Sources */,
+				F5921FB8146B80F00025DED5 /* MonacaTabBarController.m in Sources */,
+				F54FBB4014BBE04100F702D9 /* Device.m in Sources */,
+				F5EF734514EE84A8003B7BA5 /* MonacaTabBarController+Bottom.m in Sources */,
+				F5EF734E14EE8AA2003B7BA5 /* MonacaTabBarController+Top.m in Sources */,
+				F5E0F7E21506116900DC7988 /* NCBackButtonBuilder.m in Sources */,
+				F5E0F7E41506116900DC7988 /* NCButtonBuilder.m in Sources */,
+				F5E0F7E61506116900DC7988 /* NCContainer.m in Sources */,
+				F5E0F7E81506116900DC7988 /* NCLabelBuilder.m in Sources */,
+				F5E0F7EA1506116900DC7988 /* NCManager.m in Sources */,
+				F5E0F7EC1506116900DC7988 /* NCSearchBoxBuilder.m in Sources */,
+				F5E0F7EE1506116900DC7988 /* NCSegmentBuilder.m in Sources */,
+				F5E0F7F01506116900DC7988 /* NCTabbarItemBuilder.m in Sources */,
+				F5E0F7F21506116900DC7988 /* NCTitleView.m in Sources */,
+				F5E0F7F41506116900DC7988 /* NCToolbar.m in Sources */,
+				F5E0F7F61506116900DC7988 /* UILabel+Resize.m in Sources */,
+				D44C9E2E1592ED86006372F3 /* NCButton.m in Sources */,
+				D44C9E301592ED86006372F3 /* NCSearchBar.m in Sources */,
+				3E7FD321159EA3EF00E85C81 /* MonacaURLProtocol.m in Sources */,
+				3E4F510015A040DE0054EB23 /* MonacaTransitPlugin.m in Sources */,
+				3E4F510515A0419E0054EB23 /* MonacaNavigationController.m in Sources */,
+				3E0F090115A81D000025EFC2 /* MFPGNativeComponent.m in Sources */,
+				3EBDBE1515D2451A00E3E951 /* CDVAccelerometer.m in Sources */,
+				3EBDBE1C15D2451A00E3E951 /* CDVBattery.m in Sources */,
+				3EBDBE2115D2451A00E3E951 /* CDVCamera.m in Sources */,
+				3EBDBE2615D2451A00E3E951 /* CDVCapture.m in Sources */,
+				3EBDBE2D15D2451A00E3E951 /* CDVConnection.m in Sources */,
+				3EBDBE3215D2451A00E3E951 /* CDVContact.m in Sources */,
+				3EBDBE3715D2451A00E3E951 /* CDVContacts.m in Sources */,
+				3EBDBE3C15D2451A00E3E951 /* CDVCordovaView.m in Sources */,
+				3EBDBE4315D2451A00E3E951 /* CDVDebugConsole.m in Sources */,
+				3EBDBE4815D2451A00E3E951 /* CDVDevice.m in Sources */,
+				3EBDBE4D15D2451A00E3E951 /* CDVFile.m in Sources */,
+				3EBDBE5215D2451A00E3E951 /* CDVFileTransfer.m in Sources */,
+				3EBDBE5715D2451A00E3E951 /* CDVInvokedUrlCommand.m in Sources */,
+				3EBDBE5C15D2451A00E3E951 /* CDVLocalStorage.m in Sources */,
+				3EBDBE6115D2451A00E3E951 /* CDVLocation.m in Sources */,
+				3EBDBE6615D2451A00E3E951 /* CDVLogger.m in Sources */,
+				3EBDBE6B15D2451A00E3E951 /* CDVMotion.m in Sources */,
+				3EBDBE7015D2451A00E3E951 /* CDVNotification.m in Sources */,
+				3EBDBE7515D2451A00E3E951 /* CDVPlugin.m in Sources */,
+				3EBDBE7A15D2451A00E3E951 /* CDVPluginResult.m in Sources */,
+				3EBDBE7F15D2451A00E3E951 /* CDVReachability.m in Sources */,
+				3EBDBE8415D2451A00E3E951 /* CDVSound.m in Sources */,
+				3EBDBE8915D2451A00E3E951 /* CDVSplashScreen.m in Sources */,
+				3EBDBE8E15D2451A00E3E951 /* CDVURLProtocol.m in Sources */,
+				3EBDBE9315D2451A00E3E951 /* CDVViewController.m in Sources */,
+				3EBDBE9815D2451A00E3E951 /* CDVWhitelist.m in Sources */,
+				3EBDBEB015D2451A00E3E951 /* CDVDeprecated.m in Sources */,
+				3EBDBEB515D2451A00E3E951 /* JSONKit.m in Sources */,
+				3EBDBEBA15D2451A00E3E951 /* NSArray+Comparisons.m in Sources */,
+				3EBDBEBF15D2451A00E3E951 /* NSData+Base64.m in Sources */,
+				3EBDBEC415D2451A00E3E951 /* NSDictionary+Extensions.m in Sources */,
+				3EBDBEC915D2451A00E3E951 /* NSMutableArray+QueueAdditions.m in Sources */,
+				3EBDBECE15D2451A00E3E951 /* UIDevice+Extensions.m in Sources */,
+				3EEB4FB515E23F6A00FE5E83 /* MonacaURLCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3E6A9A2A15DFB1CE004D530D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E6A9A2D15DFB1D7004D530D /* en */,
+				3E6A9A3415DFB473004D530D /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		3E6A9A2F15DFB215004D530D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E6A9A3015DFB215004D530D /* en */,
+				3E6A9A3215DFB21F004D530D /* ja */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E4F51BA15A05BF10054EB23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/MonacaFramework.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/MonacaFramework/Plugins\"",
+					"\"$(SRCROOT)/../../../Shared/PhoneGap/Frameworks\"",
+					"\"$(SRCROOT)/MonacaFramework/Library/Vendor\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MonacaFramework/MonacaFramework-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					MONACA_PRIVATE_API,
+					DEBUG,
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/MonacaFramework/Plugins/TemplateEngine\"",
+					"\"$(SRCROOT)/MonacaFramework/Library/Monaca/TemplateEngine\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = MonacaFrameworkForApp;
+			};
+			name = Debug;
+		};
+		3E4F51BB15A05BF10054EB23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/MonacaFramework.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/MonacaFramework/Plugins\"",
+					"\"$(SRCROOT)/../../../Shared/PhoneGap/Frameworks\"",
+					"\"$(SRCROOT)/MonacaFramework/Library/Vendor\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MonacaFramework/MonacaFramework-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = MONACA_PRIVATE_API;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/MonacaFramework/Plugins/TemplateEngine\"",
+					"\"$(SRCROOT)/MonacaFramework/Library/Monaca/TemplateEngine\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = MonacaFrameworkForApp;
+			};
+			name = Release;
+		};
+		3E7FD2CE159D8F2400E85C81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/MonacaFramework/Library/Vendor\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MonacaViewTest/MonacaViewTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_VERSION = "";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "MonacaViewTest/MonacaViewTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/MonacaFramework/Library/Monaca/TemplateEngine\"",
+				);
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3E7FD2CF159D8F2400E85C81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/MonacaFramework/Library/Vendor\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MonacaViewTest/MonacaViewTest-Prefix.pch";
+				GCC_VERSION = "";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "MonacaViewTest/MonacaViewTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/MonacaFramework/Library/Monaca/TemplateEngine\"",
+				);
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F50460C613B361730050803F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F50460C713B361730050803F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		F50460C913B361730050803F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/MonacaFramework.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/MonacaFramework/Plugins\"",
+					"\"$(SRCROOT)/../../../Shared/PhoneGap/Frameworks\"",
+					"\"$(SRCROOT)/MonacaFramework/Library/Vendor\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MonacaFramework/MonacaFramework-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					MONACA_PRIVATE_API,
+					DEBUG,
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/MonacaFramework/Plugins/TemplateEngine\"",
+					"\"$(SRCROOT)/MonacaFramework/Library/Monaca/TemplateEngine\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F50460CA13B361730050803F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/MonacaFramework.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/MonacaFramework/Plugins\"",
+					"\"$(SRCROOT)/../../../Shared/PhoneGap/Frameworks\"",
+					"\"$(SRCROOT)/MonacaFramework/Library/Vendor\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MonacaFramework/MonacaFramework-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = MONACA_PRIVATE_API;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/MonacaFramework/Plugins/TemplateEngine\"",
+					"\"$(SRCROOT)/MonacaFramework/Library/Monaca/TemplateEngine\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F5FB382A14851B2C00DD6C7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = MonacaFramework;
+			};
+			name = Debug;
+		};
+		F5FB382B14851B2C00DD6C7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = MonacaFramework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E4F51B915A05BF10054EB23 /* Build configuration list for PBXNativeTarget "MonacaFrameworkForApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E4F51BA15A05BF10054EB23 /* Debug */,
+				3E4F51BB15A05BF10054EB23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E7FD2CD159D8F2400E85C81 /* Build configuration list for PBXNativeTarget "MonacaViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E7FD2CE159D8F2400E85C81 /* Debug */,
+				3E7FD2CF159D8F2400E85C81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F504609F13B361720050803F /* Build configuration list for PBXProject "MonacaFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50460C613B361730050803F /* Debug */,
+				F50460C713B361730050803F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F50460C813B361730050803F /* Build configuration list for PBXNativeTarget "MonacaFrameworkForDebugger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50460C913B361730050803F /* Debug */,
+				F50460CA13B361730050803F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5FB382C14851B2C00DD6C7A /* Build configuration list for PBXAggregateTarget "MonacaFramework-Universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5FB382A14851B2C00DD6C7A /* Debug */,
+				F5FB382B14851B2C00DD6C7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F504609C13B361720050803F /* Project object */;
+}
