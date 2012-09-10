@@ -41,6 +41,8 @@
     
     self.monacaNavigationController = [[[MonacaNavigationController alloc] initWithRootViewController:self.viewController] autorelease];
     
+    [MonacaURLProtocol registerMonacaURLProtocol];
+    
     self.window.rootViewController = self.monacaNavigationController;
     [self.window makeKeyAndVisible];
     
